@@ -25,7 +25,7 @@ Over the next 12 weeks we will embark on an educational journey. Guiding the shi
 ##### Email: adam.cooper@ga.co
 ##### Slack: amcooper
 
-### Zhen Zhou
+### Zhenting Zhou
 
 ##### Github: zhenpanda
 ##### Email: zhenting.zhou@ga.co
