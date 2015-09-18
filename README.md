@@ -25,7 +25,7 @@ Over the next 12 weeks we will embark on an educational journey. Guiding the shi
 ##### Email: adam.cooper@ga.co
 ##### Slack: amcooper
 
-### Zhen Zhou
+### Zhenting Zhou
 
 ##### Github: zhenpanda
 ##### Email: zhenting.zhou@ga.co
@@ -34,12 +34,12 @@ Over the next 12 weeks we will embark on an educational journey. Guiding the shi
 ***
 
 
-We will be covering the followig topic throughout your 12 weeks: 
+We will be covering the following topics throughout your 12 weeks: 
 
 
 ### Unit 1
 
-#### HTML, CSS, Javascript, Jquery
+#### HTML, CSS, JavaScript, jQuery
 
 ### Project 1
 
@@ -56,7 +56,7 @@ We will be covering the followig topic throughout your 12 weeks:
 
 ### Unit 3
 
-#### Node, Express, Mongo
+#### Node.js, Express, MongoDB
 
 
 ### Project 3
@@ -65,7 +65,7 @@ We will be covering the followig topic throughout your 12 weeks:
 
 ### Unit 4
 
-#### Single Page Applications, Angular
+#### Single-Page Applications, AngularJS
 
 
 ### Project 4
