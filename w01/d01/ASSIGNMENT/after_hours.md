@@ -48,13 +48,32 @@ Create a gist, give it a name, and change its language to Markdown. Put the foll
   1. How would you include backtick(s) in a code snippet?
   1. How would you include an image in a Markdown file? How about a video? Show us!
 
-## Round Up
-Submit a GitHub issue on the **class** repo with a URL to **your** fork. Don't forget:
-* URL to your submission
-* Comfortability [0 to 5]
-* Completeness [0 to 5]
-* What was a win?
-* What was a challenge?
-* Any other comments
+## How to Submit Your Evening Exercise
+Once you've completed your assignment, it's time to submit your work!
 
-_READYSETGO!!_ :rocket:
+* In your folder for today's class, `git add .` to add **all** your changes to the stage.
+
+* Then `git commit -m "[YOUR COMMIT MESSAGE HERE]"`
+
+* `git push origin master` to push your changes up to GitHub.
+
+* Go to **your** GitHub in Chrome and navigate to the class repository.
+
+* Find your folder for today's work, click it, and copy the URL to your clipboard.
+
+* On the right hand side, find the **Issues** tab and click on it.
+
+* Create a new issue with your submission by clicking the green button.
+
+* Title your issue `Submission: Week Number/Day Number`
+
+* In the body of your issue, include the following information:
+  * Paste the URL to your submission (copied above).
+  * **Comfortability** on a scale of 0 to 5 (5 being most comfortable).
+  * **Completeness** on a scale of 0 to 5 (5 being 100% complete).
+  * What was a **win** for the submission?
+  * What was **most challenging**?
+  * Any other **comments** about this assignment.
+
+* Click **Submit new issue!** Huzzah! :rocket:
+
