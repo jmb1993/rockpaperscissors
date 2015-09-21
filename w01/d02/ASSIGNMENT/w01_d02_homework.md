@@ -3,7 +3,7 @@ Subjects covered.
 	Data Types, Variables, and Arrays
 	Control Flow
 
-![Image](https://image.freepik.com/free-vector/four-seasons-with-tree-landscape_62147501855.jpg)
+![Image](https://image.freepik.com/free-vector/four-seasons-with-tree-landscape_62147501855.jpg =200x200)
 
 1.Create an array of the four seasons.
 
