@@ -20,7 +20,7 @@ The array will have 4 indices, 0 through 3. :fallen_leaf:
 #### 2. Using conditional statement.
 Write the statements that checks to see if a beer buyer is over 21.
 We want to sell the booze! However, we can't sell to minors. 
-Write an **if/else** statement that prompt to ask someone's age and alert a response depending their input. :beer:
+Write an **if/else** statement that prompt to ask someone's age and alert a response depending on input. :beer:
 
 #### 3. Hello operators.
 Take the following math statements and turn them into JavaScript statements. Use variables where they make sense.:metal:
@@ -48,8 +48,7 @@ Write a **switch** JavaScript statement that prompt to ask what day it is. :date
 - If it's not anything above alert "Huh?"
 
 #### 6. Do the D.A.N.C.E 1 2 3 4 5.
-Create three arrays, the first array contains the five letters of word dance, all capitalized. 
-The second array contains the numbers 1 - 5. The third array contains the 4 letters of the word beat, all capitalized. Create a loop that alerts mulitple times in this order.
+Write a loops that alerts mulitple times in this order.
 
 - Do the 
 - D
@@ -69,9 +68,11 @@ The second array contains the numbers 1 - 5. The third array contains the 4 lett
 - T
 - Get ready to ignite
 
+hint: use an array that the loop will iterate over to alert. :headphones:
+
 #### 7. Captain's Log.
 
-
+	
 
 #### Finished? :trophy:
 
