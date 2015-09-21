@@ -57,4 +57,4 @@ Submit a GitHub issue on the **class** repo with a URL to **your** fork. Don't f
 * What was a challenge?
 * Any other comments
 
-_Readysetgo!!_ :rocket:
+_READYSETGO!!_ :rocket:
