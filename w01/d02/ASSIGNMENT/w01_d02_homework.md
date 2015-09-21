@@ -48,7 +48,7 @@ Write a **switch** JavaScript statement that prompt to ask what day it is. :date
 - If it's not anything above alert "Huh?"
 
 #### 6. Do the D.A.N.C.E 1 2 3 4 5.
-Write a loops that alerts mulitple times in this order.
+Write a loops that alerts mulitple times in this order. :headphones:
 
 - Do the 
 - D
@@ -68,11 +68,49 @@ Write a loops that alerts mulitple times in this order.
 - T
 - Get ready to ignite
 
-hint: use an array that the loop will iterate over to alert. :headphones:
+hint: create an array, then use a loop to iterate over it. 
 
-#### 7. Captain's Log.
+#### 7. MTA.
+Write out the JavaScript that would do the following. :station:
 
-	
+- When the script is run a menu should be prompted displaying:
+  - A list of three trains - `The (L) Train, The (N) Train, The (S)ix Train`
+  - The prompt ask the user to make their selection
+- When the user enters: `L`
+  - The console should output a message containing the user's selection labeled as L train
+  - The second console output should contain the following:
+    - `8th Ave`
+    - `6th Ave`
+    - `Union Square`
+    - `3rd Ave`
+    - `1st Ave`
+    - `Bedford Ave`
+- When the user enters: `N`
+  - The console should output a message containing the user's selection labeled as N train
+  - The second console output should contain the following:
+    - `Times Square`
+    - `Herald Square`
+    - `28th St`
+    - `23rd St - DAPS Nexus`
+    - `Union Square`
+    - `8th St `
+- When the user enters `S`
+  - The console should output a message containing the user's selection labeled as S train
+  - The second console output should contain the following:
+    - `Grand Central`
+    - `33rd St`
+    - `28th St`
+    - `23rd St`
+    - `Union Square`
+    - `Astor Place`
+
+- A Thank You message should be logged to the console.
+- The program should exit.
+
+Bonus:
+- Rather than exit after the program is run, let's allow the users to use our program until they choose to quit. 
+  - This quit option should be accessible when users can choose a train line.
+  - When the user quits, the program should alert the user than the program has ended.  
 
 #### Finished? :trophy:
 
