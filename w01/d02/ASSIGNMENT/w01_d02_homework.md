@@ -9,18 +9,26 @@ A starter HTML file has been provided and is where you should work tonight.
 	Data Types, Variables, and Arrays
 	Control Flow
 
-<a href="url"><img src="https://charlierobinson.files.wordpress.com/2011/06/2009-02-20-the-four-seasons-of-traffic.jpg" height="160" width="300" ></a>
+#### 1. The making a varaible.
+Create a varaible array that contains four strings.
+Each one should be assigned the value that contains a different season.
+The array will have 4 indices, 0 through 3. :fallen_leaf:
 
-#### 1.Create an array of the four seasons.
-
-Create an array that will have 4 indices, 0 through 3. 
-Each one should be assigned a value that contains a season. :fallen_leaf:
-
-#### 2. Write a statement that checks to see if a beer buyer is over 21.
+#### 2. Using a conditional statement.
+Write a statement that checks to see if a beer buyer is over 21.
 We want to sell the booze! However, we can't sell to minors. 
 Write an **if/else** statement that prompt to ask someone's age and alert a response. :beer:
 
-#### 3.
+#### 3. Hello operators.
+Take the following math statements and turn them into JavaScript statements. Use variables where they make sense.
+
+- Varaible A is greater than Varaible B
+- Varaible C is equal to Varaible D
+- 42 is less than 48
+- Varaible Name is equal to Varaible Name
+- Varaible E minus Varaible F equals Varaible G
+- Varaible H squared equals Varaible I
+- Varaible J times Varaible H
 
 #### 4.
 
