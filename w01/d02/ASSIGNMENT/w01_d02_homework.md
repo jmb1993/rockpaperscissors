@@ -1,12 +1,17 @@
-Subjects covered.
+## JavaScript Drills!
+
+Tonight you are going to write JavaScript statements to solve the following problems. This assignment is to get you to started thinking like a developer.
+
+A starter HTML file has been provided and is where you should work tonight.
+
+#### Subjects covered.
 
 	Data Types, Variables, and Arrays
 	Control Flow
 
 ![Image](https://image.freepik.com/free-vector/four-seasons-with-tree-landscape_62147501855.jpg)
-{:.some-css-class style="width: 200px, height: 200px"}
 
-1.Create an array of the four seasons.
+#### 1.Create an array of the four seasons.
 
 Create an array that will have 4 indices 0 through 3. 
 Each one should be assigned a value that contains a season.
