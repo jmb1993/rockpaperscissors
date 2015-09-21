@@ -9,7 +9,7 @@ A starter HTML file has been provided and is where you should work tonight.
 	Data Types, Variables, and Arrays
 	Control Flow
 
-<img src="https://charlierobinson.files.wordpress.com/2011/06/2009-02-20-the-four-seasons-of-traffic.jpg" align="left" height="200" width="200" >
+<a href="url"><img src="https://charlierobinson.files.wordpress.com/2011/06/2009-02-20-the-four-seasons-of-traffic.jpg" height="160" width="300" ></a>
 
 #### 1.Create an array of the four seasons.
 
