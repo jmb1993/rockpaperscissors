@@ -6,7 +6,7 @@
 
 ## Setup
 
-Work in the `w01d01/student` directory. Create a new directory called `homework` in which all of the following files will be created.
+Work in the `w01/d01/ASSIGNMENT` directory. Create a new directory called `after_hours` in which all of the following files will be created.
 
 ## Completion
 
@@ -47,3 +47,14 @@ Create a gist, give it a name, and change its language to Markdown. Put the foll
   1. What is a backtick used for?
   1. How would you include backtick(s) in a code snippet?
   1. How would you include an image in a Markdown file? How about a video? Show us!
+
+## Round Up
+Submit a GitHub issue on the **class** repo with a URL to **your** fork. Don't forget:
+* URL to your submission
+* Comfortability [0 to 5]
+* Completeness [0 to 5]
+* What was a win?
+* What was a challenge?
+* Any other comments
+
+_Readysetgo!!_ :rocket:
