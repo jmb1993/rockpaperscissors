@@ -8,12 +8,12 @@ A starter file has been provided and is where you should work tonight.
 
 #### Subjects covered.
 
-	Data Types, Variables, and Arrays
-	Control Flow
-	Loops
+  - Data Types, Variables, and Arrays
+  - Control Flow
+  - Loops
 
-#### 1. The making of a varaible.
-Create a varaible array that contains four strings.
+#### 1. The making of a variable.
+Create an array that contains four strings.
 Each one should be assigned the value that contains a different season.
 The array will have 4 indices, 0 through 3. :fallen_leaf:
 
@@ -23,7 +23,7 @@ We want to sell the booze! However, we can't sell to minors.
 Write an **if/else** statement that prompt to ask someone's age and alert a response depending on input. :beer:
 
 #### 3. Hello operators.
-Take the variables and numbers given to you and replace the blanks with mathematical or boolean operators that makes the statements console.log true. :wave:
+Take the variables and numbers given to you and replace the blanks with a mathematical or boolean operators that makes the statement console.log true. :wave:
 
 ```javascript
   var a = 4;
@@ -44,7 +44,7 @@ Take the variables and numbers given to you and replace the blanks with mathemat
 #### 4. Pythagorean Theorem.
 Given the following variables.
 Write the JavaScript statements that can solve for sideC using pythagorean theorem.
-So when console.log for sideC I get the correct answer. :triangular_ruler:
+So when console.log for sideC you get the correct answer. :triangular_ruler:
 
 ```javascript
   var sideA = 3;
@@ -61,13 +61,13 @@ Write a **switch** JavaScript statement that prompt to ask what day is today. :d
 
 - If it's Monday alert "Week just started!"
 - If it's Tuesday alert "So far so good!"
-- If it's Wednesday alert "Half way there!"
+- If it's Wednesday alert "Halfway there!"
 - If it's Thursday alert "Almost there!"
 - If it's Friday, Saturday or Sunday alert "Woooo, finally end of the week!"
 - If it's not anything above alert "Huh, sorry didn't get that?"
 
 #### 6. Do the D.A.N.C.E 1 2 3 4 5.
-Write a loops that alerts mulitple times in this order. :headphones:
+Write a loops that alerts multiple times in this order. :headphones:
 
 - Do the 
 - D
@@ -95,42 +95,56 @@ Write out the JavaScript that would do the following. :station:
 - When the script is run a menu should be prompted displaying:
   - A list of three trains - `The (L) Train, The (N) Train, The (S)ix Train`
   - The prompt ask the user to make their selection
-- When the user enters: `L`
-  - An alert should output a message containing the user's selection labeled as L train
-  - A console log output should contain the following:
-    - `8th Ave`
-    - `6th Ave`
-    - `Union Square`
-    - `3rd Ave`
-    - `1st Ave`
-    - `Bedford Ave`
-- When the user enters: `N`
-  - An alert should output a message containing the user's selection labeled as N train
-  - A console log output should contain the following:
-    - `Times Square`
-    - `Herald Square`
-    - `28th St`
-    - `23rd St - DAPS Nexus`
-    - `Union Square`
-    - `8th St `
-- When the user enters `S`
-  - An alert should output a message containing the user's selection labeled as S train
-  - A console log output should contain the following:
-    - `Grand Central`
-    - `33rd St`
-    - `28th St`
-    - `23rd St`
-    - `Union Square`
-    - `Astor Place`
 
-- A Thank You message should be logged to the alert.
-- The program should exit.
+    - If the user enters: `L`
+      - An alert should output a message containing the user's selection labeled as L train
+      - A console log output should contain the following:
+        - `8th Ave`
+        - `6th Ave`
+        - `Union Square`
+        - `3rd Ave`
+        - `1st Ave`
+        - `Bedford Ave`
+    - If the user enters: `N`
+      - An alert should output a message containing the user's selection labeled as N train
+      - A console log output should contain the following:
+        - `Times Square`
+        - `Herald Square`
+        - `28th St`
+        - `23rd St - DAPS Nexus`
+        - `Union Square`
+        - `8th St `
+    - If the user enters `S`
+      - An alert should output a message containing the user's selection labeled as S train
+      - A console log output should contain the following:
+        - `Grand Central`
+        - `33rd St`
+        - `28th St`
+        - `23rd St`
+        - `Union Square`
+        - `Astor Place`
+
+- Then a thank You message should alert.
+- The program then exits.
 
 Bonus:
 - Rather than exit after the program is run, let's allow the users to use our program until they choose to quit. 
   - This quit option should be accessible when users can choose a train line.
-  - When the user quits, the program should alert the user than the program has ended.  
+  - When the user quits, the program should alert the user then the program has ended.  
+
+#### Extra Bonus:
+#### 8. Array all day.
+Find the median number in the following array, then console.log that number. :clipboard:
+
+```javascript
+  var nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+```
+  hint: Using some kind of method to put in order first, then use some kind of Math method to find the median.
+
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
 
 #### Finished? :trophy:
 
 Awesome! Please submit your evening assignment via a GitHub issue. In the body of your submission, make sure to leave your comfortability (0–5), completeness (0–5), a win, a challenge and maybe a comment about this assignment.
+
