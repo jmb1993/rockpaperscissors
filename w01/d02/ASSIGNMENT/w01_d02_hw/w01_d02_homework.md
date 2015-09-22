@@ -23,21 +23,21 @@ We want to sell the booze! However, we can't sell to minors.
 Write an **if/else** statement that prompt to ask someone's age and alert a response depending on input. :beer:
 
 #### 3. Hello operators.
-Take the variables and numbers given to you and use math statements where they make sense so they return true. :wave:
-  
-  `
+Take the variables and numbers given to you and replace the blanks with mathematical or boolean operators that makes the statements console.log true. :wave:
+
+```javascript
   var a = 4;
   var b = 53;
   var c = 57;
   var d = 16;
   var e = 'Kevin';
-  `
+```
 
 -  a _ b;
 -  c _ d;
 -  'Name' ___ 'Name';
--  a + b ___ c;
--  a * a ___ d;
+-  a _ b ___ c;
+-  a _ a ___ d;
 -  e ___ 'Kevin';
 -  48 ___ '48';
 
@@ -46,13 +46,15 @@ Given the following variables.
 Write the JavaScript statements that can solve for sideC using pythagorean theorem.
 So when console.log for sideC I get the correct answer. :triangular_ruler:
 
-  `
+```javascript
   var sideA = 3;
   var sideB = 4;
   var sideC;
-  `
+```
   
   hint: checkout the Math Methods in javascript
+
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
 
 #### 5. Switch Statement.
 Write a **switch** JavaScript statement that prompt to ask what day is today. :date:
