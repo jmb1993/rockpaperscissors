@@ -4,7 +4,7 @@
 
 Tonight you are going to write JavaScript statements to solve the following problems. This assignment is to get you to started thinking like a developer.
 
-A starter HTML file has been provided and is where you should work tonight.
+A starter file has been provided and is where you should work tonight.
 
 #### Subjects covered.
 
@@ -23,18 +23,36 @@ We want to sell the booze! However, we can't sell to minors.
 Write an **if/else** statement that prompt to ask someone's age and alert a response depending on input. :beer:
 
 #### 3. Hello operators.
-Take the following math statements and turn them into JavaScript statements. Use variables where they make sense. :wave:
+Take the variables and numbers given to you and use math statements where they make sense so they return true. :wave:
+  
+  `
+  var a = 4;
+  var b = 53;
+  var c = 57;
+  var d = 16;
+  var e = 'Kevin';
+  `
 
-- A is greater than B
-- C is equal to D
-- 42 is less than 48
-- Name is equal to Name
-- E minus F equals G
-- H squared equals I
-- J times H
+-  a _ b;
+-  c _ d;
+-  'Name' ___ 'Name';
+-  a + b ___ c;
+-  a * a ___ d;
+-  e ___ 'Kevin';
+-  48 ___ '48';
 
 #### 4. Pythagorean Theorem.
-Write the JavaScript statements that can solve the pythagorean theorem. :triangular_ruler:
+Given the following variables.
+Write the JavaScript statements that can solve for sideC using pythagorean theorem.
+So when console.log for sideC I get the correct answer. :triangular_ruler:
+
+  `
+  var sideA = 3;
+  var sideB = 4;
+  var sideC;
+  `
+  
+  hint: checkout the Math Methods in javascript
 
 #### 5. Switch Statement.
 Write a **switch** JavaScript statement that prompt to ask what day is today. :date:
