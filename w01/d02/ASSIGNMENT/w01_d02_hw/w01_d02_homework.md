@@ -1,4 +1,4 @@
-## JavaScript!!! 
+## JavaScript!
 
 ![Foo](http://loveforsuccessfulwomen.com/wp-content/uploads/2011/08/Practice.jpg)
 
@@ -23,7 +23,7 @@ We want to sell the booze! However, we can't sell to minors.
 Write an **if/else** statement that prompt to ask someone's age and alert a response depending on input. :beer:
 
 #### 3. Hello operators.
-Take the following math statements and turn them into JavaScript statements. Use variables where they make sense.:metal:
+Take the following math statements and turn them into JavaScript statements. Use variables where they make sense. :wave:
 
 - A is greater than B
 - C is equal to D
@@ -37,15 +37,14 @@ Take the following math statements and turn them into JavaScript statements. Use
 Write the JavaScript statements that can solve the pythagorean theorem. :triangular_ruler:
 
 #### 5. Switch Statement.
-Write a **switch** JavaScript statement that prompt to ask what day it is. :date:
+Write a **switch** JavaScript statement that prompt to ask what day is today. :date:
 
 - If it's Monday alert "Week just started!"
 - If it's Tuesday alert "So far so good!"
 - If it's Wednesday alert "Half way there!"
 - If it's Thursday alert "Almost there!"
-- If it's Friday alert "TGIF WOOOO!"
-- If it's Saturday or Sunday alert "Enjoying the weekend!"
-- If it's not anything above alert "Huh?"
+- If it's Friday, Saturday or Sunday alert "Woooo, finally end of the week!"
+- If it's not anything above alert "Huh, sorry didn't get that?"
 
 #### 6. Do the D.A.N.C.E 1 2 3 4 5.
 Write a loops that alerts mulitple times in this order. :headphones:
@@ -68,17 +67,17 @@ Write a loops that alerts mulitple times in this order. :headphones:
 - T
 - Get ready to ignite
 
-hint: create an array, then use a loop to iterate over it. 
+hint: create an **something**, then use a **something** to iterate over it. 
 
-#### 7. MTA.
+#### 7. Let's take the Subway.
 Write out the JavaScript that would do the following. :station:
 
 - When the script is run a menu should be prompted displaying:
   - A list of three trains - `The (L) Train, The (N) Train, The (S)ix Train`
   - The prompt ask the user to make their selection
 - When the user enters: `L`
-  - The console should output a message containing the user's selection labeled as L train
-  - The second console output should contain the following:
+  - An alert should output a message containing the user's selection labeled as L train
+  - A console log output should contain the following:
     - `8th Ave`
     - `6th Ave`
     - `Union Square`
@@ -86,8 +85,8 @@ Write out the JavaScript that would do the following. :station:
     - `1st Ave`
     - `Bedford Ave`
 - When the user enters: `N`
-  - The console should output a message containing the user's selection labeled as N train
-  - The second console output should contain the following:
+  - An alert should output a message containing the user's selection labeled as N train
+  - A console log output should contain the following:
     - `Times Square`
     - `Herald Square`
     - `28th St`
@@ -95,8 +94,8 @@ Write out the JavaScript that would do the following. :station:
     - `Union Square`
     - `8th St `
 - When the user enters `S`
-  - The console should output a message containing the user's selection labeled as S train
-  - The second console output should contain the following:
+  - An alert should output a message containing the user's selection labeled as S train
+  - A console log output should contain the following:
     - `Grand Central`
     - `33rd St`
     - `28th St`
@@ -104,7 +103,7 @@ Write out the JavaScript that would do the following. :station:
     - `Union Square`
     - `Astor Place`
 
-- A Thank You message should be logged to the console.
+- A Thank You message should be logged to the alert.
 - The program should exit.
 
 Bonus:
