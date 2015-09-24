@@ -1,14 +1,3 @@
----
-title: Build a Website using HTML/CSS Lab
-type: lab
-duration: "1:25"
-creator:
-    name: Emerson Taymor
-    city: NYC
-competencies: HTML and CSS
----
-
-
 # Build a Website using HTML/CSS Lab
 
 ## Introduction
