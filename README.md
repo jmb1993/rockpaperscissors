@@ -31,6 +31,12 @@ Over the next 12 weeks we will embark on an educational journey. Guiding the shi
 ##### Email: zhenting.zhou@ga.co
 ##### Slack: zhenting.zhou
 
+### Abner Yang
+
+##### Github: sunsheeppoplar
+##### Email: abner.yang@generalassemb.ly
+##### Slack: sunsheeppoplar
+
 ***
 
 
