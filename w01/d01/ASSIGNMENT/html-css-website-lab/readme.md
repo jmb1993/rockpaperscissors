@@ -49,3 +49,4 @@ Here are examples of a simple "About" and "Portfolio" page that fulfill the assi
 ## Additional Resources
 
 - W3Schools Docs on [CSS](http://www.w3schools.com/css/css_howto.asp) and [HTML](http://www.w3schools.com/html/)
+- The laudable [DevDocs](http://devdocs.io/) contains documentation on [CSS](http://devdocs.io/css/), [HTML](http://devdocs.io/html/), and many other development tools
