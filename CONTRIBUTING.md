@@ -10,7 +10,7 @@
 
 Self Assessment | From 0 to 5
 ------------ | -------------
-Comfortability |  
+Comfort level |  
 Completeness | 
 
 #### Win:
