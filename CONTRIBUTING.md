@@ -4,9 +4,7 @@
 
 ###### Link to homework
 
-```
 
-```
 
 Self Assessment | From 0 to 5
 ------------ | -------------
@@ -14,25 +12,24 @@ Comfort level |
 Completeness | 
 
 #### Win:
-```
 
 
 
 
 
-```
+
 #### Struggle:
-```
 
 
 
 
-```
+
+
 
 #### Comments:
-```
 
 
 
 
-```
+
+
