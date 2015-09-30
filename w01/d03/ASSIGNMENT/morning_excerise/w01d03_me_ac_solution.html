@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+
+  <h1>Conditional Air Conditioner</h1>
+  <script>
+    var currentTemperature = parseInt( prompt( "What's the current temperature?" ) );
+    var desiredTemperature = parseInt( prompt( "What temperature would you like it to be?" ) );
+
+    if (currentTemperature > desiredTemperature) {
+      console.log("Turning on the A/C! It's boiling hot!");
+    } else if (currentTemperature < desiredTemperature) {
+      console.log("Turning off the A/C! It's freezing cold!");
+    } else {
+      console.log("Keep it as it is, it's a perfect temperature.!");
+    }
+  </script>
+
+</body>
+</html>

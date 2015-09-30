@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+
+<h1>Tempertaure Converter</h1>
+<script>
+  var temperature = parseInt( prompt('Give me a temperature.') );
+  var convertTo = prompt('F to C *or* C to F ?');
+
+  if (convertTo === 'F to C' || convertTo === 'f to c') {
+    var converted = ( temperature - 32 ) * (5 / 9 );
+    console.log(converted);
+  } else if (convertTo === 'C to F' || convertTo === 'c to f') {
+    var converted = ( ( temperature * 9 ) / 5 ) + 32;
+    console.log(converted);
+  };
+</script>
+
+</body>
+</html>
