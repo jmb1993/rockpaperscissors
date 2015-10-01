@@ -1,5 +1,7 @@
 # A New Terminal: Solution
-Below is one solution to A New Terminal. You can do it differently, of course, depending on how you navigate the directory structure. The `-v` flags stand for _verbose_ and are not necessary; check the manual pages for the associated commands to find out more.
+Below is one solution to A New Terminal. You can do it differently, of course, depending on how you navigate the directory structure. 
+* The `tree` command is like running `ls -R` and getting the output in a graphical tree structure. To install it with Homebrew, run `brew update` and then `brew install tree`.
+* The `-v` flags I've included stand for _verbose._ They're not necessary, but they display a confirmation of the operation you've just performed. Check the manual pages for the associated commands to find out more (`man commandName`).
 
 Note that `$` stands for a Bash prompt; the user doesn't type it.
 
