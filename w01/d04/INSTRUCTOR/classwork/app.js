@@ -69,22 +69,26 @@ console.log(ford);
       console.log("I'm a " + currentCar.color + " " + currentCar.class + ", and I go re" + eThing + "ly fast!");
     }
   };
-  var carArray = [mustang, tt, gallardo,ford];
-  bonus(carArray);
+  var carArray = [mustang,tt,gallardo];
+ 
+
+bonus(carArray);
 
 // I'd have to iterate over EVERY item until I find my record
-socialArray[/*300mitems*/
-  { name:'jason',
-    ss:'123-45-6789',
-    address:'123 '
-  },
-  //+300million
-];
-for(var i =0; i<socialArray.length;i++){
+// /*socialArray[/*300mitems*/
+//   { name:'jason',
+//     ss:'123-45-6789',
+//     address:'123 '
+//   },
+//   //+300million
+// ];
+// */
+
+/*for(var i =0; i<socialArray.length;i++){
   /// this might take a while... I have to sort through every citizen in the country to find me
   // I might actually be the last one in the list. :(
 
-}
+}*/
 
 // 
 socials = {
@@ -98,4 +102,71 @@ socials = {
 
 
 console.log(socials['123-45-6789']) // me!
+
+
+// let's iterate over some objects.
+for(var key in ford){
+  console.log( key , ford[key] );
+}
+
+// WOOT! you can ALSO iterate over arrays in the same way!
+for( var key in carArray ){
+  console.log(carArray[key]);
+}
+
+
+///////// Object Methods /////
+
+  var mustang = {
+    color: 'red',
+    class: 'muscle',
+    horsePower: 435,
+    windowStatus: undefined,
+
+    windowUp: function(){
+      this.windowStatus = 'up';
+    },
+    windowDown: function(){
+      mustang.windowStatus = 'down';
+    },
+    drive: function(distance){
+      alert(distance + ' mph');
+    },
+    showWindow: function(){
+      return this.windowStatus;
+    }
+  };
+  console.log(mustang)
+
+
+
+/// OBJECT FACTORY
+
+  var carFactory = function( color, hp, title ){
+    return {
+      color: color,
+      title: title,
+      horsePower: hp,
+      fuel: 5,
+      drive: function() {
+        if (this.fuel > 0) {
+          this.fuel--;
+          return 'Vroom!';
+        } else {
+          return 'out of gas';
+        }
+      },
+      refuel: function() {
+        this.fuel = 5;
+      },
+      paint: function(color) {
+        this.color = color;
+      },
+      tuneup: function() {
+        this.horsePower += 10;
+      }
+    };
+  }
+
+
 
