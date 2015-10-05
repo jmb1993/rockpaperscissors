@@ -10,7 +10,7 @@ Fundamentals, class, or that you find on your own.
 ## Set the Scene
 
 1. Open the **Terminal app**
-2. Change directories to your **w01/d02/ASSIGNMENT/morning_exercise**.
+2. Change directories to your **w01/d04/ASSIGNMENT/morning_exercise**.
 3. Create a new directory called "**galaxy-far-far-away**" and enter it.
 4. Create a directory called "**death-star**", and make the following files inside of it:
     * "**darth-vader.txt**"

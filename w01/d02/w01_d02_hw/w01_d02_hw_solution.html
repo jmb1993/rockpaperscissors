@@ -1,0 +1,123 @@
+<html>
+<head>
+</head>
+<body>
+
+  <h1>JavaScript Practice!</h1>
+  <script>
+  // START HERE!
+
+  // 1. The making of a varaible.
+
+    var seasons = ["Spring", "Summer", "Fall", "Winter"];
+
+  // 2. Using conditional statement.
+
+    var age = prompt("How old are you?");
+    if (age >= 21) {
+      alert("We want to sell you booze!");
+    } else {
+      alert("Sorry. We can't sell to minors!");
+    };
+
+  // 3. Hello operators.
+
+    var a = 4;
+    var b = 53;
+    var c = 57;
+    var d = 16;
+    var e = 'Kevin';
+
+    a < b;
+    c > d;
+    'Name' === 'Name';
+    a + b === c;
+    a * a === d;
+    e === 'Kevin';
+    48 !== '48';
+
+  // 4. Pythagorean Theorem.
+    
+    var sideA = 3;
+    var sideB = 4;
+    var sideC;
+
+    sideC = Math.sqrt( (sideA * sideA) + (sideB * sideB) );
+    console.log(sideC);
+
+  // 5. Switch Statement!
+
+    var day = prompt("What day is today?");
+    switch(day) {
+        case "Monday":
+          alert("Week just started!");
+          break;
+        case "Tuesday":
+          alert("So far so good!");
+          break;
+        case "Wedesday":
+          alert("Half way there!");
+          break;
+        case "Thursday":
+          alert("Almost there!");
+          break;
+        case "Friday":
+        case "Saturday":
+        case "Sunday":
+          alert("Woooo, finally end of the week!");
+          break;
+        default:
+          "Huh, sorry didn't get that?";
+    }
+
+  // 6. D.A.N.C.E!
+
+    var words = ['Do the', 'D', 'A', 'N', 'C', 'E', '1', '2', '3', '4', '5', 'Stick to the', 'B', 'E', 'A', 'T', 'Get ready to ignite'];
+    for (var w = 0; w < words.length; w++) {
+      alert(words[w]);
+    };
+
+  // 7. Let's take the Subway.
+
+    var quit = false;
+    var L = ['8th Ave','6th Ave','Union Square','3rd Ave','1st Ave','Bedford Ave'];
+    var N = ['Times Square','Herald Square','28th St','23rd St','Union Square','8th St'];
+    var S = ['Grand Central','33rd St','28th St','23rd St','Union Square','Astor Place'];
+    var lineBreak = "------------------------------\n";
+    while(!quit){
+      var input = prompt("Thank you for choosing the MTA.\nPlease make train selection.\n\nEnter L for The (L) Train\nEnter N for The (N) Train\nEnter S for The (S) Train\n\nEnter Quit to exit");
+      if (input === 'L') {
+        alert("You have chosen the L train.");
+        console.log(lineBreak,"Here are the L train stations.")
+        for (var i = 0; i < L.length; i++) {
+          console.log(L[i]);
+        };
+      } else if (input === 'N') {
+        alert("You have chosen the N train.");
+        console.log(lineBreak,"Here are the N train stations.")
+        for (var i = 0; i < L.length; i++) {
+          console.log(N[i]);
+        };
+      } else if (input === 'S') {
+        alert("You have chosen the S train.");
+        console.log(lineBreak,"Here are the S train stations.")
+        for (var i = 0; i < L.length; i++) {
+          console.log(S[i]);
+        };
+      } else if (input === 'Quit') {
+        alert("Thank you for using the MTA goodbye!");
+        quit = true;
+      };
+    }
+
+  // 8. Array all day
+    
+    var nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+    nums.sort();
+    console.log( nums[Math.floor(nums.length/2)] );
+
+  // END HERE!
+  </script>
+
+</body>
+</html>
