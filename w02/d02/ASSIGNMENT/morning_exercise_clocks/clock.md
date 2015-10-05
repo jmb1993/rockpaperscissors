@@ -1,11 +1,8 @@
-Morning Exercise 05-13-2015
-
 #### Learning Objectives
 - Practice using JavaScript to manipulate the DOM
 - Practice using JavaScript Timers
 
 # Clocks!!!!
-##### cue Coldplay
 
 Today you are going to build a clock!
 
@@ -13,7 +10,7 @@ Start by planning! Draw a clock, break down the problem.
 
 Work in `clock.js`, and test your work in `index.html`.
 
-In clock js, you're going to write a method called `clock()`.
+In `clock.js`, you're going to write a method called `clock()`.
 
 Then you're going to register an event listener to `window`, that fires `clock()` when the page loads.
 
@@ -42,4 +39,4 @@ Define 3 variables and grab the associated element from the DOM using JavaScript
 ### Step 6
 - How would you sync up your clock with the current time? Take a look at JavaScript's [`Date`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) object
 - Think about how you can change the time interval to make the second hand move more smoothly.
-- We've included the jQuery here. Revisit this exercise after you've learned it to try alternative methods!
+- We've included jQuery here. Revisit this exercise after you've learned it to try another method!
