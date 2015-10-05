@@ -10,9 +10,9 @@ Start by planning! Draw a clock, break down the problem.
 
 Work in `clock.js`, and test your work in `index.html`.
 
-In `clock.js`, you're going to write a method called `clock()`.
+In `clock.js`, you're going to write a method called `clockRun()`.
 
-Then you're going to register an event listener to `window`, that fires `clock()` when the page loads.
+Then you're going to register an event listener to `window`, that fires `clockRun()` when the page loads.
 
 ### Step 1
 Define 3 variables and grab the associated element from the DOM using JavaScript:
