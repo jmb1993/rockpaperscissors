@@ -34,7 +34,7 @@ If you open your html file in the browser, you will see an assortment of images 
 
 #### Part 2 - Hello? McFly! Anybody Home?
 
-Make a constructor function, and assign each name in the `family` array to the key `fname` and assign the last name 'McFly' to the key `lname`.
+Make an object factory, and assign each name in the `family` array to the key `fname` and assign the last name 'McFly' to the key `lname`.
 
 For example, Marty's dad might be assigned to a variable dad; therefore, `dad.fname + ' ' + dad.lname` should print 'George McFly'.
 
