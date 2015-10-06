@@ -2,8 +2,6 @@
 
 ## Introduction
 
-> ***Note:*** _This can be a pair programming activity or done independently._
-
 In this lab, you are going to create a calculator with text inputs and buttons. You'll need to handle events and manipulate the DOM to show the result.
 
 ## Exercise
