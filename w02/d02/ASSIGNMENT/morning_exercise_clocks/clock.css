@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Bevan);
+
+body {
+  background: black;
+}
+
+img {
+  position: absolute;
+  left: 50%;
+  margin-left: -125px;
+}
+
+div {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  border: deeppink 5px solid;
+  margin: 8% auto;
+}
+
+.title {
+  font-family: Bevan;
+  font-size: 30px;
+  text-align: center;
+  color: cornflowerblue;
+}
+
+.rotate {
+ /*   height:100px;
+    background-color: yellow;*/
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(5deg);
+}
