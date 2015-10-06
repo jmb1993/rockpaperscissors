@@ -1,0 +1,95 @@
+/* START YOUR CSS */
+/* ---------- ---------- ---------- ---------- ---------- */
+
+/* Element select */
+header {
+	background-color: white;
+}
+footer {
+	background-color: white;
+}
+section {
+	background-color: black;
+}
+/* Class select */
+.yellow-box {
+	background-color: #ffcc00;
+}
+.small-red-box {
+	background-color: #ff3333;
+}
+.big-red-box {
+	background-color: #ff3333;
+}
+.top-teal-block{
+	background-color: #99cc99;
+}
+.mid-teal-block {
+	background-color: #99cc99;
+}
+.bot-teal-block {
+	background-color: #99cc99;
+}
+.left-teal-block {
+	background-color: #99cc99;
+}
+.big-blue-block {
+	background-color: #000066;
+}
+/* Element select */
+aside {
+	background-color: #99cccc;
+}
+p {
+	background-color: #ffff00;
+}
+q {
+	background-color: #99cccc;
+}
+blockquote {
+	background-color: black;
+}
+span { 
+	background-color: #99cccc;
+}
+/* Child selector */
+.parent-most > div > div > div > div > div > div > div > div {
+	background-color: #99cc99;
+}
+/* Structural Pseudo-classes */
+.parent-one div:first-child {
+	background-color: #99cc99;
+}
+.parent-two div:last-child {
+	background-color: #99cc99;
+}
+.parent-three div:nth-child(even) {
+	background-color: #ccffcc;
+} 
+.parent-four div:nth-child(14) {
+	background-color: #ffff66;
+}
+.parent-five div:nth-child(odd) {
+	background-color: #cc3300;
+} 
+.parent-six span:only-of-type{
+	background-color: #003399;
+}
+/* General sibling selectors */
+.sibling span ~ div {
+	background-color: #669999
+}
+/* Adjacent sibling selectors, more direct */
+.next div + div {
+	background-color: #cc3366;
+}
+.pa div:only-child{
+	background-color: #000099
+}
+/* Class select */
+.second-to-last {
+	background-color: #ffff66;
+}
+.last-piece {
+	background-color: #99cc99;
+}
