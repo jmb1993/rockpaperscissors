@@ -28,7 +28,7 @@ Your `Passenger` should have the following attribute:
 
 ###Let's Go!
 
-- Create 4 passenger objects (perhaps 4 of your koala classmates...)
+- Create 4 passenger objects (perhaps four of your Bacon classmates...)
 
 - Create a cab. Maybe it's a `yellowCab` or an `uberBlack`...
 
