@@ -1,0 +1,46 @@
+div {
+margin: 10px auto;
+border: 5px  solid goldenrod;
+box-sizing: border-box;
+padding: 2px;
+}
+p {
+  padding: 20px;
+}
+#container {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+  overflow: scroll;
+}
+#square1 {
+  float: left;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+#square2 {
+  float: right;
+height: 100px;
+width: 100px;
+background-color: blue;
+}
+#square3 {
+height: 100px;
+width: 100px;
+background-color: green;
+}
+#square4 {
+height: 100px;
+width: 100px;
+clear: both;
+background-color: black;
+}
+.column1 .column2 .column3 {
+  border: 2px red;
+  box-sizing: border-box;
+  height: 100%;
+  width: 33%;
+  float: left;
+}

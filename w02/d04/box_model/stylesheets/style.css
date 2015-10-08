@@ -1,0 +1,34 @@
+div {
+margin: 10px auto;
+border: 5px  solid goldenrod;
+box-sizing: border-box;
+padding: 2px;
+}
+p {
+  padding: 20px;
+}
+#container {
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+}
+#square1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+#square2 {
+height: 100px;
+width: 100px;
+background-color: blue;
+}
+#square3 {
+height: 100px;
+width: 100px;
+background-color: green;
+}
+#square4 {
+height: 100px;
+width: 100px;
+background-color: black;
+}

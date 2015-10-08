@@ -1,0 +1,44 @@
+div {
+border: 5px  solid goldenrod;
+box-sizing: border-box;
+}
+#container {
+  position: fixed;
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+}
+#square1 {
+position: absolute;
+top: 0;
+left: 0;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+#square2 {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+height: 100px;
+width: 100px;
+background-color: blue;
+}
+#square3 {
+  position: fixed;
+height: 100px;
+width: 100px;
+background-color: green;
+}
+#square4 {
+height: 100px;
+width: 100px;
+background-color: black;
+}
+.spaceholder{
+  height: 100px;
+  width: 100px;
+  background-color: cornflowerblue;
+  margin: 20px;
+  z-index: auto;
+}

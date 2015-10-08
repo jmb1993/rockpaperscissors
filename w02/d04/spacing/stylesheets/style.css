@@ -1,0 +1,13 @@
+div{
+  border: 5px red;
+  margin: 10px;
+}
+.inline{
+  display: inline;
+}
+.block{
+  display: block;
+}
+.inline-block{
+display: inline-block;
+}
