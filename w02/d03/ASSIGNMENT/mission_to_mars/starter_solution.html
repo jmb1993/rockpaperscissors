@@ -1,0 +1,54 @@
+<html>
+<head>
+</head>
+<body style="height:1000px">
+
+  <h1> Mars starter</h1>
+  <script>
+
+  //make sure HTML loads before js
+  window.onload = function() {
+  // START HERE!
+
+  // Part 1:
+  var nameIt = function (){
+  	var nameButton = document.getElementById("name-click").addEventListener("click", function(){
+  		var newText = prompt("Hey what does this button say?");
+  		document.getElementById("name-click").innerHTML = newText;
+  	})
+  }
+  nameIt();
+
+  // Part 2:
+  var countIt = function (){
+  	var countButton = document.getElementById("count-click").addEventListener("click", function(){
+  		var newNum = parseInt(prompt("How many seconds should I count to before I alert DONE!?"));
+  		setTimeout(function() {
+  			alert("DONE!")
+		}, newNum * 1000);
+  	})
+  }
+  countIt();
+
+  // Part 3:
+  var scrollIt = function (){
+  	var scrollButton = document.getElementById("scroll-click").addEventListener("click", function(){
+  		var newScroll = parseInt(prompt("How many pixel should I scroll down?"));
+		window.scrollBy(0, newScroll);
+  	})
+  }
+  scrollIt();
+
+  // END HERE!
+  };
+
+  </script>
+
+	<div style="background-color:orange; width:200px"><button id="name-click">Name button!</button></div>
+	<div style="height: 30px"></div>
+	<div style="background-color:green; width:200px"><button id="count-click">Count button!</button></div>
+	<div style="height: 30px"></div>
+	<div style="background-color:silver; width:200px" ><button id="scroll-click">Scroll button!</button></div>
+
+</body>
+</html>

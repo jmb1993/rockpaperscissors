@@ -29,6 +29,6 @@ else alert("invalid choice, pick again!");
 var render = function() {
 
 }
-bankAccount.prototype.acoounts
+bankAccount.deposit(500)
 }
 }
