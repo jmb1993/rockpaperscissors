@@ -16,7 +16,7 @@ Your `Cab` should have the following attributes:
 - `passengers` (an array)
 
 And behaviors:
-- `acceptPassenger`: a function that takes a passenger object and adds it to the existing array of passengers. Will there be room for each of your passengers? How many seats area available?
+- `acceptPassenger`: a function that takes a passenger object and adds it to the existing array of passengers. Will there be room for each of your passengers? How many seats are available?
 - `rollCall`: a function that logs a message to the console saying which passengers are riding in the cab.
 - `endRide`: a function that removes a passenger from your `Cab`. You can make this as simple or complicated as you'd like.
 
@@ -28,7 +28,7 @@ Your `Passenger` should have the following attribute:
 
 ###Let's Go!
 
-- Create 4 passenger objects (perhaps 4 of your koala classmates...)
+- Create 4 passenger objects (perhaps four of your Bacon classmates...)
 
 - Create a cab. Maybe it's a `yellowCab` or an `uberBlack`...
 
