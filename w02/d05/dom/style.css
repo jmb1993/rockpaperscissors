@@ -1,0 +1,12 @@
+* {
+  font-family: sans-serif;
+}
+img {
+  display: block;
+}
+.immaginePiccola {
+  width: 100px;
+}
+.immagineGrande {
+  width: 400px
+}
