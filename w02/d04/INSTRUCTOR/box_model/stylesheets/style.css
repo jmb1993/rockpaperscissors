@@ -1,0 +1,50 @@
+/*The container should be 500 by 500 with a background color of grey
+
+square1 should be 100 by 100 with a BG color of red
+
+square2 should be 100 by 100 with a BG color of blue
+
+square3 should be 100 by 100 with a BG color of green
+
+square4 should be 100 by 100 with a BG color of black*/
+
+div {
+  margin: 10px auto;
+  border: 20px solid goldenrod;
+  box-sizing: border-box;
+  padding: 2px;
+}
+
+p {
+  padding: 20px;
+}
+
+#container {
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+}
+
+#square1 {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+
+#square2 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+}
+
+#square3 {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}
+
+#square4 {
+  background-color: black;
+  height: 100px;
+  width: 100px;
+}
