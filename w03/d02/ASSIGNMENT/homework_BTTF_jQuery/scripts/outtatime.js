@@ -42,7 +42,6 @@ $( document ).ready( function() {
     // Add each point of interest as an article tag
     // Inside each article tag include an h1 with the name of the point of interest
     // Append hillValley to your document body
-    $body.prepend( $hillValley );
 
   };
   makeHillValley();
