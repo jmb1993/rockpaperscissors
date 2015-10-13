@@ -4,11 +4,7 @@
 
 |Monday           | Tuesday         |Wednesday        |Thursday         |  Friday
 |:-----           |:-----           |:-----           |:-----           |:-----
-|                 |                 |                 |                 |
+|DOM |Callbacks|Constructors|HTML/CSS| Second Pass Friday
+|DOM Manipulation |Callbacks|Prototypes|Responsive Design| Lab
 
 ###Supplemental Reading
-
-#One on One
-|Jason           | Adam          |Zhen        |Will
-|:-----          |:-----         |:-----      |:-----
-|                |               |            |
