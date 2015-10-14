@@ -42,9 +42,13 @@ $( document ).ready( function() {
     // Add each point of interest as an article tag
     // Inside each article tag include an h1 with the name of the point of interest
     // Append hillValley to your document body
+<<<<<<< HEAD
 var hillValley = $("section").attr("hillValley")
 var $theClockTower = $("article").append([pointsOfInterest])
 $body.append(hillValley)
+=======
+
+>>>>>>> 62c889d2b2ae9727099d8b515e936b0204ff7d1b
   };
   makeHillValley();
 
@@ -62,25 +66,40 @@ $body.append(hillValley)
 
   // Make a constructor function, and assign each name in the `family` array to the key `fname` and assign the last name 'McFly' to the key `lname`. For example, Marty's dad might be assigned to the variable dad; `dad.fname + ' ' + dad.lname` should print 'George McFly'.
   var makeMcFlys = function(){
+<<<<<<< HEAD
     lastname: "McFly"
 var dad = family[1] + lastname,
 var mom = family[2] + lastname,
 var Marty = family[0] + lastname,
 var Dave = family[3] + lastname,
 var Lorraine = family[4] + lastname,
+=======
+
+>>>>>>> 62c889d2b2ae9727099d8b515e936b0204ff7d1b
   }
 
 
   // Create a <ul> called familyList( Notice I'm outside of a function so other functions can see/use me).
+<<<<<<< HEAD
 var familyList = $("ul").attr("familyList").addClass(makeMcFlys())
+=======
+
+>>>>>>> 62c889d2b2ae9727099d8b515e936b0204ff7d1b
 
 
   function displayMcFlys() {
     // Display an unorded list of Marty's family.
+<<<<<<< HEAD
     // Give each McFly a class of 'family'
 $familyList.addClass("family")
 $family[0].attri("marty")
    makeMcFlys();
+=======
+
+    // Give each McFly a class of 'family'
+
+
+>>>>>>> 62c889d2b2ae9727099d8b515e936b0204ff7d1b
     // Give Marty an id of 'marty';
 
 
@@ -93,10 +112,17 @@ $family[0].attri("marty")
   function deLoreanTest() {
     // Take Marty from his home and place him at the Twin Pines Mall, with Doc and Doc's dog, Einstein.
 
+<<<<<<< HEAD
 $pointsOfInterest[1].append(family[0])
 
    // Find the id 'timer' and set its display to `block`.
 $("#timer").css("display", "block")
+=======
+
+
+   // Find the id 'timer' and set its display to `block`.
+
+>>>>>>> 62c889d2b2ae9727099d8b515e936b0204ff7d1b
 
   };
   deLoreanTest();
@@ -105,10 +131,16 @@ $("#timer").css("display", "block")
 
   function ohNoTheyFoundMe(){
     // Create an `<li>` element and put the Libyan nationalists from the enemies array inside it.  Add this <li> to the Twin Pines Mall article.
+<<<<<<< HEAD
 $("li").append(enemies[4])
 $mall.append("li")
     // Add a text decoration which puts a line through Doc's name since the Libyans shot him :(
 $(friends[0]).css("text-decoration", "strikethrough")
+=======
+
+    // Add a text decoration which puts a line through Doc's name since the Libyans shot him :(
+
+>>>>>>> 62c889d2b2ae9727099d8b515e936b0204ff7d1b
 
   };
   ohNoTheyFoundMe();
@@ -122,14 +154,19 @@ $(friends[0]).css("text-decoration", "strikethrough")
 
 
    // Find an element with id `nineteen-fifty-five`.
+<<<<<<< HEAD
    $("#nineteen-fifty-five").toggleClass("destination-time").addClass("present-time")
    // Find an element with id `nineteen-eighty-five`.
    $("#nineteen-eighty-five").toggleClass("destination-time").addClass("last-time-departed")
+=======
+   // Find an element with id `nineteen-eighty-five`.
+>>>>>>> 62c889d2b2ae9727099d8b515e936b0204ff7d1b
    // Change the element with the id `nineteen-eighty-five` so that it now has the class `last-time-departed`.
    // Change the element with the id `nineteen-fifty-five` so that is now has the class `present-time`.
 
 
   // Set the `Twin Pines Mall` element to display none
+<<<<<<< HEAD
   $mall.css("display", "none")
     // Set the element with the id `mall` to display none
     $(pointsOfInterest[1]).css("display", "none")
@@ -143,6 +180,18 @@ $("#lyon-es-1955").remove(family)
 
   // Find Marty and put him in the `Peabody Farm`.
 $peabodyFarm.append(family[0]);
+=======
+    // Set the element with the id `mall` to display none
+  // Set the `Peabody Farm` element to display block
+    // Set the element with the id `farm` to display block
+
+  // Remove Marty's family from the `Lyon Estate` article.
+
+
+
+  // Find Marty and put him in the `Peabody Farm`.
+
+>>>>>>> 62c889d2b2ae9727099d8b515e936b0204ff7d1b
 
   };
   goingBackInTime();
@@ -154,6 +203,7 @@ $peabodyFarm.append(family[0]);
 
   // People think Marty's name is Calvin Klein.  Give him the property `aka`, and assign 'Calvin' to it.
   // Also Marty's mom, Lorraine isn't a McFly yet.  Change her last name to 'Baines'.
+<<<<<<< HEAD
 $(McFly[0]).append("aka").attr("Calvin")
 $(McFly[2]).lastname("Baines")
 
@@ -170,6 +220,20 @@ $("#enchantment-dance").append(enemies[3]).alert("Skinhead has joined")
 
   // Meanwhile, take the line-through text decoration off of Doc's name and put him at the Clock Tower along with his dog(circa 1955), Copernicus.
 $(friends[0]).css("text-decoration", "none")
+=======
+
+
+  // Marty needs to get to the Enchantment Under the Sea dance so his mom and dad can fall in love, but Biff and his goons have other plans.
+  // Create a new div called 'enchantment-dance' within Hill Valley HighSchool.
+
+
+
+  // Add each enemy(especially Max Peterson, and omit the Libyans!) one at a time to the enchantment dance.  After each enemy is added, make  an alert that warns Marty of each enemy's arrival.
+
+
+  // Meanwhile, take the line-through text decoration off of Doc's name and put him at the Clock Tower along with his dog(circa 1955), Copernicus.
+
+>>>>>>> 62c889d2b2ae9727099d8b515e936b0204ff7d1b
   };
   makeLikeATree();
 
@@ -177,11 +241,19 @@ $(friends[0]).css("text-decoration", "none")
 
   function itsMarvinBerry(){
     // Find the element with the id 'marty-fade' and set its display to block.
+<<<<<<< HEAD
 $("# marty-fade").css("display", "block")
 
     // George knocks out Biff.
     // Change the color of the 'i' in Biff to black so that Biff now has a black i (get it?).
 $(enemies[0]).css("display", "text-color: black")
+=======
+
+
+    // George knocks out Biff.
+    // Change the color of the 'i' in Biff to black so that Biff now has a black i (get it?).
+
+>>>>>>> 62c889d2b2ae9727099d8b515e936b0204ff7d1b
 
   };
   itsMarvinBerry()
