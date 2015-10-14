@@ -23,7 +23,7 @@ var addCard = function() {
   //Grab the value of the input box
   var cardText = document.getElementById("new-card-text").value;
 
-  //create the delete button
+  //create the delete button 
   var deleteButton = document.createElement("span");
   deleteButton.className = "delete";
   deleteButton.innerHTML = "X";
