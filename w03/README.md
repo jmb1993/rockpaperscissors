@@ -4,11 +4,5 @@
 
 |Monday           | Tuesday         |Wednesday        |Thursday         |  Friday
 |:-----           |:-----           |:-----           |:-----           |:-----
-|                 |                 |                 |                 |
-
-###Supplemental Reading
-
-#One on One
-|Jason           | Adam          |Zhen        |Will
-|:-----          |:-----         |:-----      |:-----
-|                |               |            |
+|Columbus Day|Github Branches| Second Pass Wednesday|Project Time|Project Time
+|Columbus Day|jQuery|Project Time|Project Time|Project Time
