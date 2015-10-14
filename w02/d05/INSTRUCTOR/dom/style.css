@@ -1,0 +1,14 @@
+*{
+  font-family: sans-serif;
+}
+
+img{
+  display: block;
+}
+
+p>img{
+  width:100px;
+}
+
+
+
