@@ -7,6 +7,8 @@
 // returns a bound function for the setInterval later.
 var walkClosure = function(pony,distance){
   return function(){
+
+    //console.log(distance)
     pony.css('left', distance + 'px');
     if (distance < -600){
       distance = 1625;
@@ -22,21 +24,26 @@ var walkClosure = function(pony,distance){
 $(function() {
 
   // generate the walk function and pass it into setInterval
-  var walkingPony = function() {
+  // This is an IIFE (Immediately Invoked Function Expression)
+  (function() {
     var walk = walkClosure( $('.pony') , 1625 );
     setInterval( walk, 60 );
-  };
+    //console.log(walkClosure)
+  })();
 
   // has the brony loaded?
-  console.log( 'Loaded, Brony' );
-  
-
-  walkingPony();
+  console.log( 'Lowded, Brony' );
 
   $('body').on('click', '.pony' , function() {
     console.log('hi');
+
+    // clone the pony
     var pony = $(this).clone();
+
+    // Compose a new function, using the new clone and a new random starting value
     var walk = walkClosure( pony , Math.random()*1000 );
+
+    // 
     setInterval( walk , Math.random()*100);
     pony.appendTo($(document.body));
 
