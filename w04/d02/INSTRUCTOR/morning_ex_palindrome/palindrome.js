@@ -60,6 +60,17 @@ console.log("loaded bro")
 // // Zhen one-liner
 // var p=function(w,s){while(s++ < w.length||console.log(true)) if(w[s]!=w[(w.length-1)-(s)])return false}("a",0);
 
+// AK's solution
+// function isPalindrome(str) {
+//   var s = str.toLowerCase().split(' ').join('');
+//   for (var i=0; i < s.length/2; i++) {
+//     if (s[i] != s[s.length - (i+1)]) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+
 var isPalindromeTwo = function(string) {
 	var normalized = string.replace(/ /g,'').toLowerCase();
 	var halfLength = (normalized.length / 2);
