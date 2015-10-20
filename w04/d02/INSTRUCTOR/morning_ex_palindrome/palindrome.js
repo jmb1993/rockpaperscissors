@@ -97,7 +97,7 @@ var drome = function(string) {
 // Jason Seminara 2015-10-20
 var jasonIsPalindrome = function(word,verbose){
   // normalize the string
-  word = word.replace(/\W+/g,'').toLowerCase();
+  word = word.replace(/[^\w\d]/g,'').toLowerCase();
   
   // This is an IIFE that uses the head and tail of the string and uses recursion to continue to call the function until the pointers overtake each other 
   return (function _testPos(head,tail){
