@@ -79,6 +79,7 @@ var isPalindromeTwo = function(string) {
 	return (frontHalf === backHalf.split('').reverse().join(''));
 };
 
+// Will Shaw 2015-10-19
 function isPalindrome(string) {
   var normalized = string.replace(/ /g, '').toLowerCase();
   if(normalized.length <= 1){ return true };
@@ -86,10 +87,29 @@ function isPalindrome(string) {
   return isPalindrome(normalized.substr(1, normalized.length - 2))  
 }
 
+// Adam Cooper 2015-10-19
 var drome = function(string) {
   var specials = /[ !@#\$%\^&\*\(\)_\-\+={}\[\]\\\|:;"'<,>\.\?\/]/g;
   var stripped = string.toLowerCase().replace(specials, '');
   return (stripped === stripped.split('').reverse().join(''));
+}
+
+// Jason Seminara 2015-10-20
+var jasonIsPalindrome = function(word,verbose){
+  // normalize the string
+  word = word.replace(/[\s,.]+/g,'').toLowerCase();
+  
+  // This is an IIFE that uses the head and tail of the string and uses recursion to continue to call the function until the pointers overtake each other 
+  return (function _testPos(head,tail){
+    
+    // base case
+    if(tail<head) return true;
+    
+    if(verbose) console.log(head,tail, word[head], word[tail])
+    
+    // recurse here
+    return (word[head] === word[tail]) ? _testPos(head+1, tail-1) : false; 
+  })( 0, word.length-1 );
 }
 
 console.log(drome('Will'));
