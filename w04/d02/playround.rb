@@ -1,0 +1,9 @@
+user_input = gets.chomp
+
+puts "you input: \n #{user_input}"
+
+WERE GOING TO MAKE A CALCULATOR
+PROMPT USER TO INPUT MATH OPERATION ADD - MULT - DIVIDE - THE OPTIONS
+SHOULD BE PRINTED TO THE CONSOLE
+
+P
