@@ -5,6 +5,6 @@ class Automobile
   end
 
   def initialize
-    p "I'm a Automobile" 
+    p "From auto: I'm a Automobile" 
   end
 end
