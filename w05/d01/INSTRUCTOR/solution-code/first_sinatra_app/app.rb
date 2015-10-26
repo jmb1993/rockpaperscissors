@@ -1,12 +1,15 @@
 class FirstSinatraApp < Sinatra::Base
 
   get "/" do
-    erb "WDI is awesome."
+    "<h1>Hello world</h1>"
   end
 
-  get "/songs" do
-    @songs = ["Fly Me To The Moon", "New York, New York", "Luck Be A Lady"]
-    erb :'songs'
+
+  get "/photos" do
+    "photos here"
   end
 
+  get "/photos/dogs" do 
+  	"you've got dogs!"
+  end
 end
