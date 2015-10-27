@@ -13,8 +13,8 @@
 #One on One
 |Will           |Jason           | Adam        |Zhen
 |:-----          |:-----         |:-----      |:-----
-| Thomas T       | Lesley        | Keven      | AK 
+| Thomas T       | Daniel G      | Keven      | AK 
 | Tom Kim        | Caroline      | James      | Alex K 
 | Kate           | Guy           | Noah       | Giulia 
-| Johnny         | Yuriy         | Daniel G   | Ross
+| Johnny         | Yuriy         | Lesley     | Ross
 
