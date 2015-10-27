@@ -10,9 +10,12 @@ You will be given the following files: `players.sql`, `teams.sql`
 
 ### Step 1- Setup!
 Create a new file called `nfl.sql`. In this file write your answers to step 4.
+create a database in psql.
 
 ### Step 2 - Schema!
-Create a new file called `schema.sql`. In this file write the schema for your database.
+Wait...how do I get the scheam file and seed into my database?
+`psql -d nfl < schema.sql`
+`psql -d nfl < players.sql`
 
 ### Step 3 - Seed!
 Using the file you created `schema.sql` for your database.
