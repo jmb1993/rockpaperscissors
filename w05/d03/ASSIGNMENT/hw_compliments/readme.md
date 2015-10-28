@@ -58,6 +58,3 @@ Style really hard with css.
 
 Allow a user to add to the list of compliments using a POST request to `"/compliments"`.
 
-#### Bonus 2: Share the Love
-
-Deploy this to the world on Heroku so your WDI friends in Hong Kong and Los Angeles can hit it in moments of profound debilitation. (you'll have to initialize a new git repo. DO NOT DO THIS INSIDE YOUR MELVILLE FOLDER, instead, copy your code to a new folder outside of melville, and initialize that one as it's own repo to push to heroku)
