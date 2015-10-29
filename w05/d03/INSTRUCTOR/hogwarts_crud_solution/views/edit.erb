@@ -1,0 +1,27 @@
+<h1>Edit Records for <%= @student["fname"] + " " + @student["lname"] %></h1>
+
+<form method="post" action="/students/<%= @student["id"] %>">
+
+  <input type="hidden" name="_method" value="patch">
+
+  <label for="fname">First Name</label>
+  <input type="text" name="fname" value="<%= @student['fname'] %>"><br>
+
+  <label for="lname">Last Name</label>
+  <input type="text" name="lname" value="<%= @student['lname'] %>"><br>
+
+  <label for="image">Image URL</label>
+  <input type="text" name="image" value="<%= @student["image"] %>"><br>
+
+  <label for="house_id">House ID</label><br>
+
+  <select name="house_id">
+    <% @houses.each do |house| %>
+      <% selected = ( house["id"] == @student["house_id"]) %>
+      <option value="<%= house["id"] %>" <%= "selected=true" if selected %> ><%= house["name"]%></option>
+    <% end %>
+  </select><br>
+
+  <input type="submit" >
+
+</form>

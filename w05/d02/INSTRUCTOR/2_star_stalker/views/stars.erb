@@ -1,0 +1,7 @@
+<h1>Stars Index</h1>
+
+<% @stars.each do |star| %>
+  <h2><%= star[:name] %></h2>
+  <h3><%= star[:born_on]%></h3>
+  <img src="<%= star[:image_url] %>" alt="A photo of <%= star[:name]%>">
+<% end %>

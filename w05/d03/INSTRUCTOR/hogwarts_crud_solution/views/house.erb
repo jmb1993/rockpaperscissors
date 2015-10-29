@@ -1,0 +1,13 @@
+<div class="house">
+  <h1><%= @house["name"] %></h1>
+  <img src="<%= @house["img_url"] %>" alt="The Sigil of house <%= @house["name"] %>">
+</div>
+
+<div class="roster">
+  <% @students.each do |student| %>
+    <div class="student">
+      <h1><a href="/students/<%= student["id"]%>"><%= student["fname"] + " " + student["lname"] %></a></h1>
+      <img src="<%= student["image"] %>" alt="a pic of <%= student["fname"] + " " + student["lname"] %>"/>
+    </div>
+  <% end %>
+</div>
