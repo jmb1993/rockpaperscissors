@@ -1,0 +1,28 @@
+
+<h1>Welcome to Hogwarts!</h1>
+
+<a href="/houses">View the Houses</a>
+<a href="/students">View the Students</a>
+
+<form action="/students/new" method="post">
+
+  <h2>Enroll a new student</h2>
+
+  <label for="fname">First Name:</label>
+  <input name="fname" type="text" placeholder="First Name"><br>
+
+  <label for="lname">Last Name:</label>
+  <input name="lname" type="text" placeholder="Last Name"><br>
+
+  <label for="image">Image URL:</label>
+  <input name="image" type="text" placeholder="Image URL"><br>
+
+  <label for="house_id">House:</label>
+  <select name="house_id">
+    <% @houses.each do |house| %>
+      <option value="<%= house["id"] %>"><%= house["name"]%></option>
+    <% end %>
+  </select><br>
+
+  <input type="submit">
+</form>
