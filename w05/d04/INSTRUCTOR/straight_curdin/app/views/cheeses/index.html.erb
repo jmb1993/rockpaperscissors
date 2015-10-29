@@ -1,0 +1,15 @@
+<h1>Cheeses of WDI</h1>
+
+<a href="/cheeses/new">MAKE A NEW CHEESE</a>
+
+<% @cheeses.each do |cheese| %>
+
+  <h2><a href="/cheeses/<%= cheese.id %>"><%= cheese.name %></a></h2> <!-- # make this a link to the cheese -->
+
+
+  <p>Milk Type: <%= cheese.milk_type %></p>
+  <img src="<%= cheese.image_url %>" alt="">
+  <p><%= cheese.description %></p>
+
+  <%= button_to 'Eat this Cheese!', "/cheeses/#{cheese.id}", method: "delete" %>
+<% end %>
