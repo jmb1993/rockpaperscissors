@@ -1,6 +1,6 @@
 # Styling Forms
 
-![test](http://fillmurray.com/102/103)
+![test](http://fillmurray.com/402/103)
 
 Forms are one of the most commonly seen and most important elements on the web. We need users to fill out and submit forms in order to gather data, make purchases, creates profiles, etc. For today's warmup, we are going to practice styling form elements. We want to keep our forms simple and clean so that users can easily fill them out.
 
