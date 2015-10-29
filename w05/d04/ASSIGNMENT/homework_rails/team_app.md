@@ -19,21 +19,21 @@ Generate a new migration for teams. An team entry should have:
 
 Please feel free to add other attributes if you would like.
 
-Run your migration
+Run your migration.
 
 Seed your database with 4 teams.
 
 ## Step 3 - Routing, Controllers, and Views
 Define your routes and controllers for teams. Define the necessary views for teams.
 
-- Your homepage should show a list of all teams, and when clicked should take the user to the team's show page. Your homepage should also have a link to add a new team.
-- The show page should list all of the team's information, There should be a link to edit the team that will take the user to the edit page
-- The edit page should allow the user to update the teams information as well as display a button allowing a user to remove the team from the database.
+- Your homepage should show a list of all teams. Each team, when clicked, should take the user to the team's show page. Your homepage should also have a link to add a new team.
+- The show page should list all of the team's information, There should be a link to edit the team that will take the user to the edit page.
+- The edit page should allow the user to update the team's information as well as display a button allowing a user to remove the team from the database.
+- The new team page should allow the user to input data for a new team in the database.
 
 A user should easily be able to get to the homepage from any section of the site.
 
 ## Step 4 - REVIEW
-
 - Look at your work and compare it against the specifications of the assignment. Make sure your app has the functionality you expect.
 - Make sure all necessary buttons/links are present
 - Step through the process of using your site. Click every button, submit every form.
