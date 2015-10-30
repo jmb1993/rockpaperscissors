@@ -27,7 +27,7 @@ ORDER BY id asc;
 DELETE FROM students where id=6;
 
 #Update from a table
-UPDATE students set age=99 where id=1;
+UPDATE students set age=99 where id=1;	
 
 
 # Flush the table out?
