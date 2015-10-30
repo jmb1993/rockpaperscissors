@@ -1,0 +1,14 @@
+<%= form_for @team do |f| %>
+<%= f.label :name%>
+<%= f.text_field :name %>
+
+<%= f.label :image_url %>
+<%= f.text_field :image_url %>
+
+<%= f.label :location %>
+<%= f.text_field :location %>
+
+<%= f.label :number_of_championships %>
+<%= f.text_field :number_of_championships %>
+<%= f.submit 'CREATE NEW TEAM' %>
+<% end %>

@@ -1,0 +1,12 @@
+<h1>Teams</h1>
+
+<a href="/teams/new">Make a new Team</a>
+
+<% @teams.each do |teams| %>
+<h2><a href= "/teams/<%= team.id%>"> <%= team.name %> </a></h2>
+<p> <%= team.number_of_championships %> </p>
+<img src="<%= team.image_url %>" alt="" />
+<p> <%= team.location %></p>
+
+<%= button_to "Eat this cheese!", "/cheeses"
+<% end %>
