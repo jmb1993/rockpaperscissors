@@ -22,7 +22,7 @@ You should seed your database with the following creatures (users):
 
 ## Bonus
 
-0. Write tests to validate your code!
+0. Write tests to confirm your code's correctness!
 1. Give your fuzzy users avatars - allow them to input a link to a custom image.
 2. Add a public view page! Allow non-logged-in users to view any given animal's messages. After all, this is supposed to attract public attention!
 3. Make this site look *good*. Style it up using hand-rolled CSS and/or a framework.
