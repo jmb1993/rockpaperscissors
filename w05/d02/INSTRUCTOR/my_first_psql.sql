@@ -27,7 +27,11 @@ ORDER BY id asc;
 DELETE FROM students where id=6;
 
 #Update from a table
+<<<<<<< HEAD
 UPDATE students set age=99 where id=1;
+=======
+UPDATE students set age=99 where id=1;	
+>>>>>>> 9ba3eba33423a37f38520f0c37af784ae26c702f
 
 
 # Flush the table out?

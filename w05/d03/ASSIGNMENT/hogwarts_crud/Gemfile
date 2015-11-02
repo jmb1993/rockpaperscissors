@@ -1,6 +1,10 @@
 # A sample Gemfile
 source "https://rubygems.org"
+<<<<<<< HEAD
 ruby "2.2.3"
+=======
+ruby "2.2.0"
+>>>>>>> 9ba3eba33423a37f38520f0c37af784ae26c702f
 
 # gem "rails"
 gem 'rake'
@@ -11,3 +15,8 @@ group :development do
   gem 'pry'
   gem 'sinatra-contrib'
 end
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 9ba3eba33423a37f38520f0c37af784ae26c702f

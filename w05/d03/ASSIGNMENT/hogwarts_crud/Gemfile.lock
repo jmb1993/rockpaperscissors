@@ -39,6 +39,9 @@ DEPENDENCIES
   rake
   sinatra
   sinatra-contrib
+<<<<<<< HEAD
 
 BUNDLED WITH
    1.10.6
+=======
+>>>>>>> 9ba3eba33423a37f38520f0c37af784ae26c702f
