@@ -2,7 +2,7 @@ require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
   def setup
-  @user = User.new(username: "Will", email: "Will.Shaw@ga.co")
+  @user = User.new(username: "Will", email: "Will.Shaw@ga.co", password: "bigpoop", password_confirmation: "bigpoop")
 end
 
 test "Should be vaild" do
@@ -49,6 +49,16 @@ test "email address should be unique" do
   duplicate_user = @user.dup
   @user.save
   assert_not duplicate_user.valid?
+end
+
+test "password should be present(non-blank)" do
+  @user.password = @user.password_confirmation = " " * 6
+  assert_not @user.valid?
+end
+
+test "password should have a minimum length" do
+  @user.password = @user.password_confirmation = "a" * 5
+  assert_not @user.valid?
 end
 
 end

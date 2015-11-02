@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+$(function () {
+  $(".logo").on('click', function () {
+    console.log("KEWLLLLLLLLLL RAILS AND JS")
+  })
+})
