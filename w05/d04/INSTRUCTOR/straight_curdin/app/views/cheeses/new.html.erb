@@ -1,0 +1,23 @@
+
+<!-- we're goin to write a form here -->
+
+<%= form_for @cheese  do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <br>
+  <%= f.label :milk_type %>
+  <%= f.text_field :milk_type %>
+  <br>
+  <%= f.label :image_url %>
+  <%= f.text_field :image_url %>
+  <br>
+  <%= f.label :description %>
+  <%= f.text_field :description %>
+  <br>
+  <%= f.submit 'CREATE A DANK NEW CHEESE' %>
+<% end %>
+
+   <!-- t.string "name"
+    t.string "milk_type"
+    t.string "description"
+    t.string "image_url" -->
