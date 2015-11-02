@@ -1,4 +1,4 @@
-# Bronx Zoo Message Board
+# San Diego Zoo Message Board
 
 ![img](http://images.familyvacationcritic.com/sd-zoo-safari-rolling-safari.jpg)
 
