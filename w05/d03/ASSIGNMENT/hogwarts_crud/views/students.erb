@@ -1,1 +1,4 @@
-
+<h1>List of students</h1>
+<% @students.each do |students| %>
+<a href = '/students/<%= student["id"] %>'><%= student['fname'] + ' ' + student["lname"] %></a>
+<% end %>

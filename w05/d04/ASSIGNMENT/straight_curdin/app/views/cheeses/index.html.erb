@@ -1,0 +1,12 @@
+<h1>Cheeses of WDI</h1>
+
+<a href="/cheeses/new">Make a new cheese</a>
+
+<% @cheeses.each do |cheese| %>
+<h2><a href= "/cheeses/<%= cheese.id%>"> <%= cheese.name %> </a></h2>
+<p> <%= cheese.milk_type %> </p>
+<img src="<%= cheese.image_url %>" alt="" />
+<p> <%= cheese.description %></p>
+
+<%= button_to "Eat this cheese!", "/cheeses"
+<% end %>

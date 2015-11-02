@@ -1,0 +1,14 @@
+CREATE TABLE instructors (
+ ID  INT PRIMARY KEY NOT NULL,
+ NAME TEXT NOT NULL,
+ EXPERIENCE INT NOT NULL,
+ WEBSITE CHAR(50)
+);
+
+
+primary key = exclusive id
+null means undefined in psql
+
+psql commands
+\l == show databases
+\c switch to database..

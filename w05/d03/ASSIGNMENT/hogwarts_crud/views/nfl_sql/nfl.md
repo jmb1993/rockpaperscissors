@@ -10,12 +10,9 @@ You will be given the following files: `players.sql`, `teams.sql`
 
 ### Step 1- Setup!
 Create a new file called `nfl.sql`. In this file write your answers to step 4.
-create a database in psql.
 
 ### Step 2 - Schema!
-Wait...how do I get the scheam file and seed into my database?
-`psql -d nfl < schema.sql`
-`psql -d nfl < players.sql`
+Create a new file called `schema.sql`. In this file write the schema for your database.
 
 ### Step 3 - Seed!
 Using the file you created `schema.sql` for your database.
@@ -26,17 +23,17 @@ Using the file provided to seed your database.
 #### Queries
 Some may require more than one query (i.e. you may need to get information about a team before you can complete a query for players). Test each command in PSQL to make sure it is correct:
 
-- List the names of all NFL teams
-- List the stadium name and head coach of all NFC teams
-- List the head coaches of the AFC South
-- The total number of players in the NFL
-- The team names and head coaches of the NFC North and AFC East
-- The 50 players with the highest salaries
-- The average salary of all NFL players
-- The names and positions of players with a salary above 10_000_000
-- The player with the highest salary in the NFL
-- The name and position of the first 100 players with the lowest salaries
-- The average salary for a DE in the nfl
+- List the names of all NFL teams 1
+- List the stadium name and head coach of all NFC teams 2
+- List the head coaches of the AFC South 3
+- The total number of players in the NFL 4
+- The team names and head coaches of the NFC North and AFC East 5
+- The 50 players with the highest salaries 6
+- The average salary of all NFL players 7
+- The names and positions of players with a salary above 10_000_000 8
+- The player with the highest salary in the NFL 9
+- The name and position of the first 100 players with the lowest salaries 10
+- The average salary for a DE in the nfl 11
 
 #BONUS
 If the data given to you allowed for it, how would you write the following queries?

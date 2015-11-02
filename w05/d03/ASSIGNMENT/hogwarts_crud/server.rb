@@ -3,7 +3,7 @@ module Hogwarts
 
     # sets up DB connection
     configure :development do
-      $db = PG.connect dbname: "hogwarts_crud", host: ENV["DATABASE_URL"]
+      $db = PG.connect dbname: "hogwarts", host: ENV["DATABASE_URL"]
     end
 
 
@@ -24,11 +24,13 @@ module Hogwarts
 
     get '/students' do
       # Get students WITH house name
+      @students = $db.exec("SELECT * FROM students;")
       erb :students
     end
 
     get '/students/:id' do
       # show a specific student
+      wurty = 'select * from students where id = #{params[:id] }'
       erb :student
     end
 
