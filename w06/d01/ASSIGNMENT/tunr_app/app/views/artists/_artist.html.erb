@@ -1,0 +1,15 @@
+<div class="artist all">
+<h1><%= artist.name %></h1>
+<p>
+  <img src="<% artist.img_url %>" />
+</p>
+<p>
+
+<% if params[:id] %>
+<%= link_to "edit", edit_artist_path(artist)  %>
+<% else  %>
+<%= link_to "view", artist_path(artist)  %>
+  <% end %>
+</p>
+
+</div>

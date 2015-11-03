@@ -6,6 +6,10 @@ one:
   preview_url: MyString
   artwork: MyString
   price: 1
+<<<<<<< HEAD
+=======
+  artist_id: 1
+>>>>>>> b8df6e0fc0962b9f0e37026ab8b43a3dd577414c
 
 two:
   title: MyString
@@ -13,3 +17,7 @@ two:
   preview_url: MyString
   artwork: MyString
   price: 1
+<<<<<<< HEAD
+=======
+  artist_id: 1
+>>>>>>> b8df6e0fc0962b9f0e37026ab8b43a3dd577414c
