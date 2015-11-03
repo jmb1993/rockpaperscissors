@@ -1,21 +1,4 @@
 Rails.application.routes.draw do
-
-  get 'artists/new'
-
-  get 'artists/edit'
-
-  get 'artists/index'
-
-  get 'artists/show'
-
-  get 'songs/new'
-
-  get 'songs/edit'
-
-  get 'songs/index'
-
-  get 'songs/show'
-
   get 'login' => "sessions#new"
   post 'login' => "sessions#create"
   delete 'logout' => "sessions#destroy"

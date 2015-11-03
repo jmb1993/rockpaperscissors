@@ -1,2 +1,5 @@
-<h1>Artists#show</h1>
-<p>Find me in app/views/artists/show.html.erb</p>
+<%= render @artist %>
+
+<% @artist.songs.each do |song| %>
+  <%= render partial: 'songs/song', locals: {song: song, player: true, edit: false, playlist: false} %>
+<% end %>
