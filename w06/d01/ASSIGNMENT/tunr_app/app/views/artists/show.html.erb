@@ -1,5 +1,11 @@
 <%= render @artist %>
+<<<<<<< HEAD
 <% @artist.songs.each do |song|  %>
 <%= render partial: "songs/song", locals: { song: song, player: true, edit: false, playlist: false} %>
 
+=======
+
+<% @artist.songs.each do |song| %>
+  <%= render partial: 'songs/song', locals: {song: song, player: true, edit: false, playlist: false} %>
+>>>>>>> eb608d0103fe5cfb50e954268c151c3383a88279
 <% end %>

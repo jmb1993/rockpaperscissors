@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="artist all">
 <h1><%= artist.name %></h1>
 <p>
@@ -12,4 +13,18 @@
   <% end %>
 </p>
 
+=======
+<div class="artist-all">
+  <h1><%= artist.name %></h1>
+  <p>
+    <img src="<%= artist.img_url %>"/>
+  </p>
+  <p>
+    <% if params[:id] %>
+      <%= link_to "Edit", edit_artist_path(artist) %>
+      <% else %>
+      <%= link_to "View", artist_path(artist) %>
+    <% end %>
+  </p>
+>>>>>>> eb608d0103fe5cfb50e954268c151c3383a88279
 </div>
