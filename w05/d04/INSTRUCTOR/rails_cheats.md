@@ -115,16 +115,16 @@ layout, Rails will use app/views/layouts/application.html.erb
 
 ## Useful Commands 
 
-`rake routes`
-`rake -T`
-`rake db:create`
-`rake db:rollback`
-`rake db:schema:dump`
-`rake notes`
-`rails g migration`
-`rails g migration what_it_does`
-`rails s`
-`rails c`
+- `rake routes`
+- `rake -T`
+- `rake db:create`
+- `rake db:rollback`
+- `rake db:schema:dump`
+- `rake notes`
+- `rails g migration`
+- `rails g migration what_it_does`
+- `rails s`
+- `rails c`
 
 Resources 
 
