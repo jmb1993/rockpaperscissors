@@ -126,7 +126,7 @@ layout, Rails will use app/views/layouts/application.html.erb
 - `rails s`
 - `rails c`
 
-Resources 
+## Resources 
 
 - http://guides.rubyonrails.org/routing.html
 - http://guides.rubyonrails.org/action_controller_overview.html
