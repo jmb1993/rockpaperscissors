@@ -1,0 +1,13 @@
+<h1>Sign Up</h1>
+
+<%= form_for @user, :html => {:class => "form-group center"} do |f| %>
+    <%= f.label :name, "First name:", class: "control-label"%>
+    <%= f.text_field :name%>
+    <%= f.label :email, "Email:", class: "control-label"%>
+    <%= f.text_field :email%>
+    <%= f.label :password, "Password:", class: "control-label"%>
+    <%= f.password_field :password%>
+    <%= f.label :password_confirmation, "Confirm Password:", class: "control-label"%>
+    <%= f.password_field :password_confirmation%>
+    <%= f.submit%>
+<%end%>
