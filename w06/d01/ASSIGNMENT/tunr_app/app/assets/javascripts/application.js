@@ -17,7 +17,5 @@
 
 
 $(function () {
-  $(".logo").on('click', function () {
-    console.log("KEWLLLLLLLLLL RAILS AND JS")
-  })
+console.log("loaded bro")
 })
