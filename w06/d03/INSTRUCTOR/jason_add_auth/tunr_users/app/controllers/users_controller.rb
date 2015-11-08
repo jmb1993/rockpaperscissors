@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  skip_before_action :authenticate, only: [:new,:create,:show]
 
   def new
     @user = User.new
@@ -9,7 +10,16 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:id])
+    if logged_in?
+
+      @user = User.find(session[:user_id])
+     if  @user.roles.find{|role| role=='administrator'}
+      # redirect some special admin page
+      #do something fo the admin
+      end
+    else
+      redirect_to login_path
+    end
   end
 
   def create
