@@ -4,11 +4,18 @@
 
 |Monday           | Tuesday         |Wednesday        |Thursday         |  Friday
 |:-----           |:-----           |:-----           |:-----           |:-----
-|                 |                 |                 |                 |
+| Prezzies        | Node/express    |                 |                 |
 
 ###Supplemental Reading
 
 #One on One
-|Jason           | Adam          |Zhen        |Will
-|:-----          |:-----         |:-----      |:-----
-|                |               |            |
+ |Zhen           |Will            |Jason           | Adam            
+|:-----          |:-----          |:-----     |:-----      
+| Guy            | Lesley        | Johnny     | Ross
+| Daniel G       | Kyle          | Thomas T   | Laura
+| Danny          | Caroline      | Keven      | Tom Kim
+| Kate           | Giulia        | KP         | Alex N
+| AK             | Cyrus         | Yuriy      | James
+| Sho            | Colin         | Alex K     | Ray
+| Zoë            | Noah          | 
+
