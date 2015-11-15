@@ -1,0 +1,47 @@
+div.ipod {
+  width: 225px;
+  height: 300px;
+  background-color: black;
+  border-radius: 25px;
+  position: absolute;
+}
+div.screen {
+  width: 200px;
+  height: 125px;
+  background-color: darkgrey;
+  margin-left: 13px;
+margin-top: 20px;
+}
+div.wheel {
+  height: 120px;
+  width: 125px;
+  border-radius: 75px;
+  margin-left: 45px;
+  margin-top: 15px;
+background-color:  #323232;
+position: absolute;
+}
+div.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  background-color: black;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 10px;
+  position: absolute;
+}
+div.menu {
+margin-top: -30px;
+margin-left: 10px;
+position: absolute;
+}
+div.play{
+  margin-top: 65px;
+  margin-left: 10px;
+  position: absolute;
+}
+p{
+  color: white;
+  font-size: 10px;
+}
