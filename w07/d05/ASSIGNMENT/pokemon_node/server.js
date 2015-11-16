@@ -1,6 +1,7 @@
 var express = require('express'),
     logger = require('morgan'),
     app = express(),
+    hb = require('handlebars/runtime'),
     pokemons = require('./poke_array')
 
 var trySendData=(item,res)=> item ? res.send(item) : res.sendStatus(404).end()
@@ -12,6 +13,8 @@ app.listen(3000,(req,res)=>'hello world')
 
 
 app.get('/',(req,res)=>res.render('index.html'))
+
+
 app.get('/pokemons/searchByName', (req,res)=>{
   var curr; 
   if (req.query.name) curr = pokemons.find( el=> el.name.toLowerCase() === req.query.name.toLowerCase() );
