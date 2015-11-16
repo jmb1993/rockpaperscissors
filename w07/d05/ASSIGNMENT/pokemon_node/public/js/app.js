@@ -1,7 +1,7 @@
 $(function(){
   var pokeShow_template = Handlebars.compile($("#pokeShow-template").html());
   var pokemons_template = Handlebars.compile($("#pokemons-template").html());
-
+  console.log(pokemons_template)
   var renderOne = (data)=>{
     // capture the jQuery 
     var $container = $('#solo-pokemon')

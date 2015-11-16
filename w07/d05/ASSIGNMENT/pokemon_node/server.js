@@ -1,7 +1,6 @@
 var express = require('express'),
     logger = require('morgan'),
     app = express(),
-    hb = require('handlebars/runtime'),
     pokemons = require('./poke_array')
 
 var trySendData=(item,res)=> item ? res.send(item) : res.sendStatus(404).end()
@@ -17,14 +16,24 @@ app.get('/',(req,res)=>res.render('index.html'))
 
 app.get('/pokemons/searchByName', (req,res)=>{
   var curr; 
-  if (req.query.name) curr = pokemons.find( el=> el.name.toLowerCase() === req.query.name.toLowerCase() );
+  if(req.query.name) {
+    curr = pokemons.find( function(el){
+      return el.name.toLowerCase() === req.query.name.toLowerCase() 
+    });
+  }
   trySendData(curr,res);
 })
 
 app.get('/pokemons/searchByType', (req,res)=>{
   var curr;
-  if (req.query.type) curr = pokemons.filter( el=>el.type.some( ty=> ty.toLowerCase()===req.query.type.toLowerCase())) 
-  curr.forEach(el=>console.log(el.type))
+  if(req.query.type){
+    curr = pokemons.filter( function(el){
+      return el.type.some( function(ty){ 
+        return ty.toLowerCase() === req.query.type.toLowerCase() 
+      })
+    }) 
+  } 
+  curr.forEach( el=>console.log(el.type) )
   trySendData(curr,res);
 })
 

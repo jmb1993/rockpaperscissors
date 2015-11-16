@@ -35,16 +35,16 @@
     <div id="solo-pokemon">
     </div>
     
-    <script id="pokemons-template" type="text/x-handlebars-template">
+    <template id="pokemons-template" type="text/x-handlebars-template">
       {{#each pokemon}}
       <div class="result" data-id="{{this.id}}">
         <h3>{{this.name}}</h3>
         <img src="{{this.img}}">
       </div>
       {{/each}}
-    </script>
+    </template>
     
-    <script id="pokeShow-template" type="text/x-handlebars-template">
+    <template id="pokeShow-template" type="text/x-handlebars-template">
       <div id="poke-info">
         <h3>{{name}}</h3>
         <img src="{{img}}">
@@ -55,7 +55,7 @@
         <p>{{moves}}</p>
         <p>Happiness: {{happiness}} || Height: {{height}}</p>
       </div>
-    </script>
+    </template>
 
   </body>
 </html>
