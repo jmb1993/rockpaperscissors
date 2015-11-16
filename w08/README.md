@@ -10,7 +10,6 @@
 ###Supplemental Reading
 
 #One on One
-Zhen	Will	Jason	Adam
 |Adam           |Zhen            |Will        | Jason            
 |:-----          |:-----         |:-----     |:-----      
 | Guy            | Lesley        | Johnny     | Ross
