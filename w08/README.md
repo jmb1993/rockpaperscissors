@@ -10,9 +10,9 @@
 ###Supplemental Reading
 
 #One on One
-
-|Will           |Jason            |Adam           | Zhen            
-|:-----          |:-----          |:-----     |:-----      
+Zhen	Will	Jason	Adam
+|Adam           |Zhen            |Will        | Jason            
+|:-----          |:-----         |:-----     |:-----      
 | Guy            | Lesley        | Johnny     | Ross
 | Daniel G       | Kyle          | Thomas T   | Laura
 | Danny          | Caroline      | Keven      | Tom Kim
