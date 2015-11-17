@@ -43,7 +43,7 @@
       </div>
       <hr>
       <!-- SEARCH RESULTS -->
-      <section class="row search-results-panel panel">
+      <section class="row search-results-panel ">
         <div class="col-md-3" id="solo-pokemon"></div>
         <div class="col-md-9 panel" id="results-container"></div>
       </section>
@@ -79,8 +79,8 @@
           <p>HP: {{hp}} || Attack: {{attack}} || Defense: {{defense}}</p>
           <h4>Moves</h4>
           <ul>
-            {{#secondChildren moves}}
-            {{/secondChildren}}
+            <!-- {{#grandChildren_sorted moves}}
+            {{/grandChildren_sorted}} -->
           {{#each moves}}
               {{#each this}}
                 <li>{{this.name}}</li>    

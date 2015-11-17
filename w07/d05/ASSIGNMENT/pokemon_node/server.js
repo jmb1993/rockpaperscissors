@@ -1,9 +1,11 @@
 
-var express = require('express'),
-    logger = require('morgan'),
-    app = express(),
-    favicon = require('serve-favicon'),
-    pokemons = require('./poke_array')
+var express     = require('express'),
+    logger      = require('morgan'),
+    app         = express(),
+    favicon     = require('serve-favicon'),
+    pokemons    = require('./poke_array'),
+    bodyParser  = require('body-parser'),
+    session     = require('express-session');
 
 var trySendData=(item,res)=> item ? res.send(item) : res.sendStatus(404).end()
 
@@ -11,8 +13,16 @@ app.use(logger('dev'));
 app.use(express.static('public'));   
 app.use(favicon(__dirname +'/public/images/PokeNation.png'));
 
-app.listen(3000,(req,res)=>'hello world')
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.use(logger('dev'));
+app.use(session({
+  secret: 'thisisitotallysecret',
+  saveUninitialized: false,
+  resave: false
+}));
 
+app.listen(3000,(req,res)=>'hello world')
 
 app.get('/',(req,res)=>res.render('index.html'))
 

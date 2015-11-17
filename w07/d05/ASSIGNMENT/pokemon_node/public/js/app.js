@@ -1,9 +1,6 @@
 'use strict'
 $(function(){
 
-  Handlebars.registerHelper('noop', function(options) {
-    return options.fn(this);
-  });
 
   Handlebars.registerHelper('grandChildren_sorted', function(context, options) {
     var moves = []

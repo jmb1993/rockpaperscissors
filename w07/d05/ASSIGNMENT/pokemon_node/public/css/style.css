@@ -17,9 +17,7 @@ img.media-object{
 #results-container {
   display: none;
 }
-.search-results-panel{
-  background:rgba(157, 196, 235, 0.58);
-}
+
 /*
   position: fixed;
   width: 400px;
