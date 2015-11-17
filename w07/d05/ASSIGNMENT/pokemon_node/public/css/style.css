@@ -14,8 +14,11 @@ img.media-object{
 #solo-pokemon{
   /*background-color: white;*/
 }
-#results-container,#solo-pokemon {
+#results-container {
   display: none;
+}
+.search-results-panel{
+  background:rgba(157, 196, 235, 0.58);
 }
 /*
   position: fixed;

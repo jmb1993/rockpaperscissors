@@ -5,7 +5,7 @@ $(function(){
   var renderOne = (data)=>{
     // capture the jQuery 
     var $container = $('#solo-pokemon')
-    
+    //$container.parents().show()
     // seed the template
     var html  = pokeShow_template(data);
 
@@ -53,7 +53,9 @@ $(function(){
   })
 
   $('#random-button').click(e=>{
+    e.stopPropagation;
     $.get('/pokemons/random', data=>renderOne(data))
+    return false;
   })
 
 
