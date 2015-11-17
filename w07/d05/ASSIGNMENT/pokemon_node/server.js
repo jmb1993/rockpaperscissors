@@ -1,12 +1,15 @@
+
 var express = require('express'),
     logger = require('morgan'),
     app = express(),
+    favicon = require('serve-favicon'),
     pokemons = require('./poke_array')
 
 var trySendData=(item,res)=> item ? res.send(item) : res.sendStatus(404).end()
 
 app.use(logger('dev'));
 app.use(express.static('public'));   
+app.use(favicon(__dirname +'/public/images/PokeNation.png'));
 
 app.listen(3000,(req,res)=>'hello world')
 

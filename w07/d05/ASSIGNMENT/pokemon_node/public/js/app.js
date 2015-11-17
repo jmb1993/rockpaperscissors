@@ -1,7 +1,7 @@
 $(function(){
   var pokeShow_template = Handlebars.compile($("#pokeShow-template").html());
   var pokemons_template = Handlebars.compile($("#pokemons-template").html());
-  console.log(pokemons_template)
+
   var renderOne = (data)=>{
     // capture the jQuery 
     var $container = $('#solo-pokemon')
@@ -34,19 +34,22 @@ $(function(){
     $('#search-name-field').val('')
 
 
-
   }
 
 
   $('#search-button').click(e=>{
+
+    e.stopPropagation;
+
     if($('#byType').prop('checked')){
      
-      $.get('/pokemons/searchByType?type='+$('#search-field').val() , data=>renderMany(data));
+      $.get('/pokemons/searchByType?type='+$('#search-field').val() , function(data){return renderMany(data)});
 
     }else{
 
-      $.get('/pokemons/searchByName?name='+$('#search-field').val() , data=>renderOne(data));
+      $.get('/pokemons/searchByName?name='+$('#search-field').val() , function(data){return renderOne(data)});
     }
+    return false;
   })
 
   $('#random-button').click(e=>{
