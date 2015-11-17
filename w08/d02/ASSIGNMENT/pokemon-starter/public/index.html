@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Pokemon &hearts;</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="http://underscorejs.org/underscore-min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row header">
+        <img class="col-md-6 col-md-offset-3" src="http://tomy.com/sites/all/themes/pokemon/images/pokemon-logo.png" id="logo">
+        <section class="col-md-6 col-md-offset-3" >
+          <h3>Search Pokemons</h3>
+          <form class="form-inline">
+            <div class="form-group">
+              <input type="text" class="form-control" id="search-field" placeholder="Search Term">
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" id="byType"> Search By Type
+              </label>
+            </div>
+            <button id="search-button" class="btn btn-default">Search</button>
+             or 
+            <button id="random-button" class="btn btn-default">I'm feeling Lucky</button>
+          </form>
+
+        </section>
+      </div>
+      <hr>
+      <!-- SEARCH RESULTS -->
+      <section class="row search-results-panel ">
+        <div class="col-md-3" id="solo-pokemon"></div>
+        <div class="col-md-9 panel" id="results-container"></div>
+      </section>
+
+    </div>
+
+
+    
+    <template id="show-many" type="text/x-handlebars-template">
+    {{#each pokemon}}
+    <div class="media" data-id="{{this.id}}">
+      <div class="media-left">
+        <a href="#" class="thumbPokemon" data-pokeid="{{this.id}}">
+          <img class="media-object thumbnail" src="{{this.img}}" alt="{{this.name}}">
+        </a>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">{{this.name}}</h4>
+        <p>media body</p>
+      </div>
+    </div>
+    {{/each}}
+    </template>
+    
+    <template id="show-one" type="text/x-handlebars-template">
+
+      <div id="poke-info" class="thumbnail">
+        <img src="{{img}}" alt="{{name}}">
+        <div class="caption">
+          <h3>{{name}}</h3>
+          <p>Classification: {{misc.classification}}</p>
+          <p>Species: {{species}}</p>
+          <p>HP: {{hp}} || Attack: {{attack}} || Defense: {{defense}}</p>
+          <h4>Moves</h4>
+          <ul>
+            <!-- {{#grandChildren_sorted moves}}
+            {{/grandChildren_sorted}} -->
+          {{#each moves}}
+              {{#each this}}
+                <li>{{this.name}}</li>    
+              {{/each}}  
+          {{/each}}
+          </ul>
+          <p>Happiness: {{this.misc.happiness}} || Height: {{misc.height}}</p>
+        </div>
+      </div>
+    </template>
+
+  </body>
+</html>
