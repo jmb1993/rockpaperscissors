@@ -43,45 +43,46 @@
       </div>
       <hr>
       <!-- SEARCH RESULTS -->
-
-
-    <div id="results-container">
-      <div class="result" data-id="{{this.id}}">
-        <h3>{{this.name}}</h3>
-        <img src="{{this.img}}">
-      </div>
-    </div>
-    
-    <div id="solo-pokemon">
-    </div>
+      <section class="row">
+        <div class="col-md-3" id="solo-pokemon">
+              
+        </div>
+        <div class="col-md-9 panel" id="results-container"></div>
+      </section>
 
     </div>
 
 
-    
-
-    
-    
     
     <template id="pokemons-template" type="text/x-handlebars-template">
-      {{#each pokemon}}
-      <div class="result" data-id="{{this.id}}">
-        <h3>{{this.name}}</h3>
-        <img src="{{this.img}}">
+    {{#each pokemon}}
+    <div class="media" data-id="{{this.id}}">
+      <div class="media-left">
+        <a href="#">
+          <img class="media-object thumbnail" src="{{this.img}}" alt="{{this.name}}">
+        </a>
       </div>
-      {{/each}}
+      <div class="media-body">
+        <h4 class="media-heading">{{this.name}}</h4>
+        <p>media body</p>
+      </div>
+    </div>
+    {{/each}}
     </template>
     
     <template id="pokeShow-template" type="text/x-handlebars-template">
-      <div id="poke-info">
-        <h3>{{name}}</h3>
-        <img src="{{img}}">
-        <p>Classification: {{misc.classification}}</p>
-        <p>Species: {{species}}</p>
-        <p>HP: {{hp}} || Attack: {{attack}} || Defense: {{defense}}</p>
-        <p>MOVES</p>
-        <p>{{moves}}</p>
-        <p>Happiness: {{happiness}} || Height: {{height}}</p>
+
+      <div id="poke-info" class="thumbnail">
+        <img src="{{img}}" alt="{{name}}">
+        <div class="caption">
+          <h3>{{name}}</h3>
+          <p>Classification: {{misc.classification}}</p>
+          <p>Species: {{species}}</p>
+          <p>HP: {{hp}} || Attack: {{attack}} || Defense: {{defense}}</p>
+          <p>MOVES</p>
+          <p>{{moves}}</p>
+          <p>Happiness: {{happiness}} || Height: {{height}}</p>
+        </div>
       </div>
     </template>
 
