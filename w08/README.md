@@ -4,11 +4,18 @@
 
 |Monday           | Tuesday         |Wednesday        |Thursday         |  Friday
 |:-----           |:-----           |:-----           |:-----           |:-----
-|                 |                 |                 |                 |
+| Mongo DB        | HandleBars.js   | | |
+| Mongoose        |                 |                 |                 |
 
 ###Supplemental Reading
 
 #One on One
-|Jason           | Adam          |Zhen        |Will
-|:-----          |:-----         |:-----      |:-----
-|                |               |            |
+|Adam           |Zhen            |Will        | Jason            
+|:-----          |:-----         |:-----     |:-----      
+| Guy            | Lesley        | Johnny     | Ross
+| Daniel G       | Kyle          | Thomas T   | Laura
+| Danny          | Caroline      | Keven      | Tom Kim
+| Kate           | Giulia        | KP         | Alex N
+| AK             | Cyrus         | Yuriy      | James
+| Sho            | Colin         | Alex K     | Ray
+| Zoë            | Noah          | 
