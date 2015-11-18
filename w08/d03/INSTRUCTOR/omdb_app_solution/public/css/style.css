@@ -1,0 +1,33 @@
+body {
+  background: url('http://www.hittingthestage.com/wp-content/uploads/2013/12/movie_theatre.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#movie-container {
+  position: relative;
+  left: 211px;
+  top: 15px;
+  background: white;
+  height: 339px;
+  width: 598px;
+  overflow: scroll;
+  text-align: center;
+}
+
+#nav {
+  position: relative;
+  color: white;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+#nav ul li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#movie-poster {
+  float: left;
+  margin-left: 10px;
+}

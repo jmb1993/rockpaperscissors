@@ -1,18 +1,19 @@
-var express = require('express'),
-    router = express.Router(),
+var mongoose = require('mongoose'),
     Movie = require('../models/movie.js'),
     omdbSearch = require('../helpers/omdb_helper.js');
 
-router.get('/movies/:search_term', function (req, res) {
-  omdbSearch.searchMovies(req.params.search_term, function (movies) {
-    res.send(movies);
-  });
-});
+module.exports.controller = function (app) {
 
-router.get('/movieById/:id', function (req, res) {
-  omdbSearch.searchMovieById(req.params.id, function (movie) {
-    res.send(movie);
+  app.get('/movies/:search_term', function (req, res) {
+    omdbSearch.searchMovies(req.params.search_term, function (movies) {
+      res.send(movies);
+    });
   });
-});
 
-module.exports = router;
+  app.get('/movieById/:id', function (req, res) {
+    omdbSearch.searchMovieById(req.params.id, function (movie) {
+      res.send(movie)
+    });
+  });
+  
+};
