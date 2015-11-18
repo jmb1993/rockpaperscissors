@@ -1,0 +1,19 @@
+body {
+  background: url("http://media.giphy.com/media/j5mdEyURiNkA0/giphy.gif") no-repeat 50% 50% fixed;
+  background-size: cover;
+  background-color: transparent!important;
+}
+
+#logo {
+  width: 400px;
+  margin:; 50%;
+}
+img.media-object{
+  width:80px;
+}
+#solo-pokemon{
+  /*background-color: white;*/
+}
+#results-container {
+  display: none;
+}
