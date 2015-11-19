@@ -2,7 +2,7 @@
 
 ![Bacon](http://static1.squarespace.com/static/5492e417e4b02631b5962a60/54930cd8e4b0932754888915/54db9d00e4b095385bb94a48/1429123809956/?format=1500w)
 
-Over the next 12 weeks we will embark on an educational journey. Guiding the ship will be your instructional team:
+Over the next 12 weeks JASON IS THE KEWLEST, WDI BACON FOREVER!!!!!!!!!!!!!!!!!!we will embark on an educational journey. Guiding the ship will be your instructional team:
 
 ***
 
