@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OMDB MOVIE APP &#9785;</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div id="nav">
+    <ul>
+      <!-- <li id="login">Login</li>
+      <li id="sign-up">Sign Up</li> -->
+    </ul>
+  </div>
+
+  <div id="movie-container"></div>
+
+
+  <template id="search-template">
+    <input type="text" id="search-term">
+    <button id="search">Search Movies</button>
+  </template>
+
+  <template id="movie-list-view">
+   <div class="movie-list">
+      <h2 class="movie-title" data-id="{{imdbID}}">{{Title}}</h2>
+   </div>
+   <hr>
+ </template>
+
+ <template id="single-movie-view">
+  <div class="single-movie" data-id="{{imdbID}}">
+    <div id="movie-poster">
+      <img src="{{Poster}}" alt="" id="poster" style="width:150px;height: 200px;">
+    </div>
+    <div id="movie-info">
+      <h1 id="title">{{Title}}</h1>
+      <h3 id="rating">Rated: {{Rated}}</h3>
+      <h6 id="tomatoRating">Rotten Tomatoes Rating : {{tomatoRating}}</h6>
+      <p id="plot"><b>Plot:</b> {{Plot}}</p>
+      <h6 id="genre">Genre: {{Genre}}</h6>
+      <h6 id="runtime">{{Runtime}}</h6>
+    </div>
+  </div>
+ </template>
+
+  <script src="/bower_components/handlebars/handlebars.js"></script>
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

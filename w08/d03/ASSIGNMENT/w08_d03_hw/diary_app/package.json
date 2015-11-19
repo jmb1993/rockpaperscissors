@@ -1,0 +1,15 @@
+{
+  "name": "diary_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.6.5",
+    "mongoose": "^4.2.6"
+  }
+}

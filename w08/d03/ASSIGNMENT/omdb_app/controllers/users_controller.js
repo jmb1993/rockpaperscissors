@@ -22,4 +22,4 @@ router.put('/users', function(req, res){
   });
 });
 
-module.exports = router
+module.exports = router;
