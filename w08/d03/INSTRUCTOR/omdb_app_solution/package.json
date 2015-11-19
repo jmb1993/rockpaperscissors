@@ -1,0 +1,21 @@
+{
+  "name": "omdb_mongo_solution",
+  "version": "1.0.0",
+  "description": "OMDB application using the OMDB API and mongo to implement persistent storage",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever start /usr/local/bin/nodemon --exitcrash server.js"
+  },
+  "author": "William Shaw",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "mongoose": "^4.2.6",
+    "morgan": "^1.6.1",
+    "request": "^2.65.0"
+  }
+}
