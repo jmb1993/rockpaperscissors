@@ -68,9 +68,15 @@ We will be covering the following topics throughout your 12 weeks:
 ### Project 3
 
 
-| Groups
-|---
-
+####Groups for Project 3
+1. KP, Daniel G, AK
+2. Caroline, Zoe, Thom K
+3. Alex K, Ray, Ross
+4. Kyle, Kate, Cyrus
+5. Danny, Laura, Giulia
+6. Yuriy, Sho, Alex N
+7. Lesley, Keven, Guy, Noah
+8. Colin, Johnny, Thomas T , James
 
 ***
 
