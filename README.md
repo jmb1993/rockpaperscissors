@@ -1,23 +1,23 @@
-## WELCOME TO WDI BACON!! HELLLLLLOOO JASSSSSSSOONNNNNNNNNNN
+## WELCOME TO WDI BACON!! 
 
-![Bacon](http://static1.squarespace.com/static/5492e417e4b02631b5962a60/54930cd8e4b0932754888915/54db9d00e4b095385bb94a48/1429123809956/?format=1500w)
+![Brony](https://s-media-cache-ak0.pinimg.com/originals/67/38/ae/6738ae030ada9b6b8c11386ba171d2e5.jpg)
 
-Over the next 12 weeks we will embark on an educational journey. Guiding the ship will be your instructional team:
+Over the next 12 weeks we will embark on an educational nerd-journey. Guiding the enterprise will be your instructional team:
 
 ***
 
-### Jason Seminara
+### Jason "SUPER HULK" Seminara
 
 ##### GitHub: jasonseminara
 ##### Email: jason.seminara@ga.co
 ##### Slack: jason.seminara
 
-### Will Shaw
+
+### Will "Poopie Pants" Shaw
 
 ##### Github: williamfshaw
 ##### Email: will.shaw@ga.co
 ##### Slack: william_shaw
-
 
 ### Adam Cooper
 
