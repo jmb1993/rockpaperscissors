@@ -1,5 +1,5 @@
 {
-  "name": "pokemon_node",
+  "name": "crypt_app",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,11 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Jason Seminara",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.12.3",
-    "morgan": "^1.6.1",
-    "serve-favicon": "^2.3.0"
+    "bcrypt": "^0.8.5"
   }
 }
